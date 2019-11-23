@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19660A8A238944AF0004B65E /* Ferry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19660A89238944AF0004B65E /* Ferry.swift */; };
 		C127F0C6236DCAC6008FBED1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C127F0C5236DCAC6008FBED1 /* AppDelegate.swift */; };
 		C127F0C8236DCAC6008FBED1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C127F0C7236DCAC6008FBED1 /* SceneDelegate.swift */; };
 		C127F0CA236DCAC6008FBED1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C127F0C9236DCAC6008FBED1 /* ContentView.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		19660A89238944AF0004B65E /* Ferry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ferry.swift; sourceTree = "<group>"; };
 		C127F0C2236DCAC6008FBED1 /* ferry-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ferry-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C127F0C5236DCAC6008FBED1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C127F0C7236DCAC6008FBED1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +78,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		19660A882389448E0004B65E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				19660A89238944AF0004B65E /* Ferry.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		C127F0B9236DCAC6008FBED1 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +109,7 @@
 		C127F0C4236DCAC6008FBED1 /* ferry-app */ = {
 			isa = PBXGroup;
 			children = (
+				19660A882389448E0004B65E /* Models */,
 				C127F0C5236DCAC6008FBED1 /* AppDelegate.swift */,
 				C127F0C7236DCAC6008FBED1 /* SceneDelegate.swift */,
 				C127F0C9236DCAC6008FBED1 /* ContentView.swift */,
@@ -269,6 +280,7 @@
 			files = (
 				C127F0C6236DCAC6008FBED1 /* AppDelegate.swift in Sources */,
 				C127F0C8236DCAC6008FBED1 /* SceneDelegate.swift in Sources */,
+				19660A8A238944AF0004B65E /* Ferry.swift in Sources */,
 				C127F0CA236DCAC6008FBED1 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
