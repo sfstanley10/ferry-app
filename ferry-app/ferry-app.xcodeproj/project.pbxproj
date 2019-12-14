@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C108E91023A43BD800409186 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C108E90F23A43BD800409186 /* ContentView.swift */; };
+		C108E91323A43C6900409186 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C108E91223A43C6900409186 /* MapViewModel.swift */; };
+		C108E91723A4459600409186 /* FerryAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C108E91623A4459600409186 /* FerryAnnotation.swift */; };
 		C127F0C6236DCAC6008FBED1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C127F0C5236DCAC6008FBED1 /* AppDelegate.swift */; };
 		C127F0C8236DCAC6008FBED1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C127F0C7236DCAC6008FBED1 /* SceneDelegate.swift */; };
-		C127F0CA236DCAC6008FBED1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C127F0C9236DCAC6008FBED1 /* ContentView.swift */; };
+		C127F0CA236DCAC6008FBED1 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C127F0C9236DCAC6008FBED1 /* MapView.swift */; };
 		C127F0CC236DCAC8008FBED1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C127F0CB236DCAC8008FBED1 /* Assets.xcassets */; };
 		C127F0CF236DCAC8008FBED1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C127F0CE236DCAC8008FBED1 /* Preview Assets.xcassets */; };
 		C127F0D2236DCAC8008FBED1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C127F0D0236DCAC8008FBED1 /* LaunchScreen.storyboard */; };
@@ -35,10 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C108E90F23A43BD800409186 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = "ferry-app/Views/ContentView.swift"; sourceTree = SOURCE_ROOT; };
+		C108E91223A43C6900409186 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		C108E91623A4459600409186 /* FerryAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FerryAnnotation.swift; sourceTree = "<group>"; };
 		C127F0C2236DCAC6008FBED1 /* ferry-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ferry-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C127F0C5236DCAC6008FBED1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C127F0C7236DCAC6008FBED1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C127F0C9236DCAC6008FBED1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C127F0C9236DCAC6008FBED1 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		C127F0CB236DCAC8008FBED1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C127F0CE236DCAC8008FBED1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C127F0D1236DCAC8008FBED1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -76,6 +82,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C108E90E23A43A1100409186 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C108E90F23A43BD800409186 /* ContentView.swift */,
+				C127F0C9236DCAC6008FBED1 /* MapView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C108E91123A43C5300409186 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				C108E91223A43C6900409186 /* MapViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		C108E91423A4433100409186 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C108E91623A4459600409186 /* FerryAnnotation.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C108E91523A4433C00409186 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		C127F0B9236DCAC6008FBED1 = {
 			isa = PBXGroup;
 			children = (
@@ -101,7 +139,10 @@
 			children = (
 				C127F0C5236DCAC6008FBED1 /* AppDelegate.swift */,
 				C127F0C7236DCAC6008FBED1 /* SceneDelegate.swift */,
-				C127F0C9236DCAC6008FBED1 /* ContentView.swift */,
+				C108E91523A4433C00409186 /* Services */,
+				C108E91423A4433100409186 /* Models */,
+				C108E91123A43C5300409186 /* ViewModels */,
+				C108E90E23A43A1100409186 /* Views */,
 				C127F0CB236DCAC8008FBED1 /* Assets.xcassets */,
 				C127F0D0236DCAC8008FBED1 /* LaunchScreen.storyboard */,
 				C127F0D3236DCAC8008FBED1 /* Info.plist */,
@@ -267,9 +308,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C108E91723A4459600409186 /* FerryAnnotation.swift in Sources */,
 				C127F0C6236DCAC6008FBED1 /* AppDelegate.swift in Sources */,
+				C108E91023A43BD800409186 /* ContentView.swift in Sources */,
 				C127F0C8236DCAC6008FBED1 /* SceneDelegate.swift in Sources */,
-				C127F0CA236DCAC6008FBED1 /* ContentView.swift in Sources */,
+				C127F0CA236DCAC6008FBED1 /* MapView.swift in Sources */,
+				C127F0CA236DCAC6008FBED1 /* MapView.swift in Sources */,
+				C108E91323A43C6900409186 /* MapViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
