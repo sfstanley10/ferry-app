@@ -1,0 +1,30 @@
+//
+//Ferry app
+//Converting string dates from python into an array of dates
+//
+//
+//
+
+import UIKit
+
+let holidays2020:[String] = ["2020-01-01", "2020-04-10", "2020-04-12", "2020-04-13", "2020-04-27", "2020-05-05", "2020-05-21", "2020-05-31", "2020-06-01", "2020-12-25", "2020-12-26"]
+
+var holidays2020date:[Date] = []
+for dateString in holidays2020
+{
+    let dateFormatter = DateFormatter()
+    dateFormatter.dateFormat = "yyyy-MM-dd"
+    dateFormatter.locale = Locale(identifier: "nl_NL")
+    dateFormatter.timeZone = TimeZone(identifier: "UTC")!
+
+    let dateFromString = dateFormatter.date(from: String(dateString))
+    holidays2020date.append(dateFromString!)
+    
+
+}
+print (holidays2020date)
+
+
+
+
+
