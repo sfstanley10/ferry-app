@@ -19,7 +19,11 @@ struct MapView: UIViewRepresentable {
   }
   
   func makeUIView(context: Context) -> MKMapView {
-    MKMapView(frame: .zero)
+    let view = MKMapView(frame: .zero)
+    view.delegate = viewModel
+    view.register(FerryAnnotationView.self,
+                  forAnnotationViewWithReuseIdentifier: String(describing: FerryAnnotationView.self))
+    return view
   }
   
   func updateUIView(_ view: MKMapView, context: UIViewRepresentableContext<MapView>) {
