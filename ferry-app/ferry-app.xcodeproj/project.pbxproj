@@ -23,6 +23,7 @@
 		C174B9BA23BA7D100006CCA3 /* FerryAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C174B9B923BA7D100006CCA3 /* FerryAnnotationView.swift */; };
 		C174B9BC23BA83BD0006CCA3 /* TimeTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C174B9BB23BA83BD0006CCA3 /* TimeTableView.swift */; };
 		C174B9BE23BA8D840006CCA3 /* LockupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C174B9BD23BA8D840006CCA3 /* LockupView.swift */; };
+		C174B9C023C0DA8B0006CCA3 /* RouteEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = C174B9BF23C0DA8B0006CCA3 /* RouteEndpoint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		C174B9B923BA7D100006CCA3 /* FerryAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FerryAnnotationView.swift; sourceTree = "<group>"; };
 		C174B9BB23BA83BD0006CCA3 /* TimeTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTableView.swift; sourceTree = "<group>"; };
 		C174B9BD23BA8D840006CCA3 /* LockupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockupView.swift; sourceTree = "<group>"; };
+		C174B9BF23C0DA8B0006CCA3 /* RouteEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteEndpoint.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 		C108E91123A43C5300409186 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				C108E91623A4459600409186 /* FerryAnnotation.swift */,
 				C108E91223A43C6900409186 /* MapViewModel.swift */,
 			);
 			path = ViewModels;
@@ -115,9 +118,9 @@
 		C108E91423A4433100409186 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				C108E91623A4459600409186 /* FerryAnnotation.swift */,
 				C108E91823A5252F00409186 /* Ferry.swift */,
 				C108E91A23A5259700409186 /* Schedule.swift */,
+				C174B9BF23C0DA8B0006CCA3 /* RouteEndpoint.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -334,6 +337,7 @@
 				C174B9BE23BA8D840006CCA3 /* LockupView.swift in Sources */,
 				C127F0CA236DCAC6008FBED1 /* MapView.swift in Sources */,
 				C108E91923A5252F00409186 /* Ferry.swift in Sources */,
+				C174B9C023C0DA8B0006CCA3 /* RouteEndpoint.swift in Sources */,
 				C108E91323A43C6900409186 /* MapViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

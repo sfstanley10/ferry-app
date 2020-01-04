@@ -11,25 +11,25 @@ import MapKit
 
 class MapViewModel: NSObject {
   lazy var location: CLLocation? = locationManager.location
-  
-  private var locationManager = CLLocationManager()
-  
-  private var lastKnownLocation: CLLocation?
-  
-  let mapModel = MockMapModel()
-  
-  var mockAnnotations: [FerryAnnotation] {
-    return mapModel.ferryLocations.flatMap {
-      $0.value.map { data in
-        let state: DepartureState = data.1 == "NDSM" ? .available : .unavailable
-        return FerryAnnotation(data.0.coordinate, title: data.1, state: state)
-      }
+    
+  var annotations: [FerryAnnotation] {
+    return mapModel.ferries.map { ferry in
+      let state: DepartureState = ferry.name == "906" ? .available : .unavailable
+      return FerryAnnotation(ferry.endpoints.northLocation.coordinate, title: ferry.name, state: state)
     }
   }
   
   var centerPoint: CLLocationCoordinate2D {
     return mapModel.centerPoint.coordinate
   }
+  
+  @Published var ferryRoutes: [MKRoute] = []
+  
+  private var locationManager = CLLocationManager()
+  
+  private var lastKnownLocation: CLLocation?
+  
+  private let mapModel = MockMapModel()
   
   override init() {
     super.init()
@@ -39,10 +39,30 @@ class MapViewModel: NSObject {
     locationManager.distanceFilter = kCLDistanceFilterNone
     
     locationManager.startUpdatingLocation()
+    updateFerryRoutes()
+  }
+  
+  func updateFerryRoutes() {
+    let endpoints = mapModel.ferries.compactMap { $0.endpoints }
+    guard let endpoint = endpoints.first else { return }
+
+    let request = MKDirections.Request()
+    let sourcePlacemark = MKPlacemark(coordinate: endpoint.northLocation.coordinate)
+    request.source = MKMapItem(placemark: sourcePlacemark)
+    let destinationPlacemark = MKPlacemark(coordinate: endpoint.southLocation.coordinate)
+    request.destination = MKMapItem(placemark: destinationPlacemark)
+    request.transportType = .walking
+    let directions = MKDirections(request: request)
+    // TODO(ss): we might need to custom draw this
+    directions.calculate { [weak self] response, error in
+      guard let response = response else { return }
+//      self?.ferryRoutes = response.routes
+    }
   }
   
   func updateTravelTimes(for userLocation: CLLocation) {
-    let ferryLocations = mapModel.ferryLocations.flatMap { $0.value.map { $0.0 } }
+    // TODO(ss): need to know if user is on north or south side
+    let ferryLocations = mapModel.ferries.map { $0.endpoints.northLocation }
     for ferryLocation in ferryLocations {
       let request = MKDirections.Request()
       request.source = MKMapItem(placemark: MKPlacemark(coordinate: userLocation.coordinate))
@@ -69,40 +89,40 @@ extension MapViewModel: CLLocationManagerDelegate {
   }
 }
 
-// TODO(ss): move this to...?
-
-extension MapViewModel: MKMapViewDelegate {
-  
-  func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
-    let identifier = String(describing: FerryAnnotationView.self)
-    guard let annotation = annotation as? FerryAnnotation else { return nil }
-
-    let dequeuedView = mapView.dequeueReusableAnnotationView(withIdentifier: identifier) as? FerryAnnotationView
-    dequeuedView?.annotation = annotation
-    let view = dequeuedView ?? FerryAnnotationView(annotation: annotation, reuseIdentifier: identifier)
-    return view
-  }
-  
-  func mapView(_ mapView: MKMapView, didSelect view: MKAnnotationView) {
-    guard let coordinate = view.annotation?.coordinate else { return }
-    let span = mapView.region.span
-    let region = MKCoordinateRegion(center: coordinate, span: span)
-    mapView.setRegion(region, animated: true)
-  }
-}
-
 struct MockMapModel {
-  enum Direction {
-    case northBound
-    case southBound
+  
+  var ferries: [Ferry] {
+    return [ndsmFerry, buiksloterwegFerry]
   }
   
-  let NDSMFerryLocation = CLLocation(latitude: 52.401211, longitude: 4.891276)
-  let BuiksloterwegFerryLocation = CLLocation(latitude: 52.382217, longitude: 4.903215)
+  var ndsmFerry: Ferry {
+    return Ferry(name: "906",
+                 timeTable: [:],
+                 tripDuration: 14.0 * 60.0,
+                 endpoints: ndsmFerryEndpoints)
+
+  }
+
+  var buiksloterwegFerry: Ferry {
+    return Ferry(name: "901",
+                 timeTable: [:],
+                 tripDuration: 5.0 * 60.0,
+                 endpoints: buiksloterwegFerryEndpoints)
+  }
   
   let centerPoint = CLLocation(latitude: 52.388299, longitude: 4.905057)
   
-  var ferryLocations: [Direction: [(CLLocation, String)]] {
-    return [.southBound: [(NDSMFerryLocation, "NDSM"), (BuiksloterwegFerryLocation, "Buiksloterweg")]]
+  private var ndsmFerryEndpoints: RouteEndpoint {
+    return RouteEndpoint(northLocation: ndsmFerryLocation,
+                         southLocation: centraalStationLocation)
   }
+  
+  private var buiksloterwegFerryEndpoints: RouteEndpoint {
+    return RouteEndpoint(northLocation: buiksloterwegFerryLocation,
+                         southLocation: centraalStationLocation)
+  }
+  
+  private let ndsmFerryLocation = CLLocation(latitude: 52.401211, longitude: 4.891276)
+  private let buiksloterwegFerryLocation = CLLocation(latitude: 52.382217, longitude: 4.903215)
+  private let centraalStationLocation = CLLocation(latitude: 52.380633, longitude: 4.899400)
 }
