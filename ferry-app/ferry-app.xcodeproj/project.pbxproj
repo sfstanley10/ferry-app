@@ -24,6 +24,7 @@
 		C174B9BC23BA83BD0006CCA3 /* TimeTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C174B9BB23BA83BD0006CCA3 /* TimeTableView.swift */; };
 		C174B9BE23BA8D840006CCA3 /* LockupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C174B9BD23BA8D840006CCA3 /* LockupView.swift */; };
 		C174B9C023C0DA8B0006CCA3 /* RouteEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = C174B9BF23C0DA8B0006CCA3 /* RouteEndpoint.swift */; };
+		C174B9C223C0EB3C0006CCA3 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C174B9C123C0EB3C0006CCA3 /* LocationService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		C174B9BB23BA83BD0006CCA3 /* TimeTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTableView.swift; sourceTree = "<group>"; };
 		C174B9BD23BA8D840006CCA3 /* LockupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockupView.swift; sourceTree = "<group>"; };
 		C174B9BF23C0DA8B0006CCA3 /* RouteEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteEndpoint.swift; sourceTree = "<group>"; };
+		C174B9C123C0EB3C0006CCA3 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 		C108E91523A4433C00409186 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				C174B9C123C0EB3C0006CCA3 /* LocationService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -326,6 +329,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C174B9C223C0EB3C0006CCA3 /* LocationService.swift in Sources */,
 				C108E91723A4459600409186 /* FerryAnnotation.swift in Sources */,
 				C127F0C6236DCAC6008FBED1 /* AppDelegate.swift in Sources */,
 				C108E91023A43BD800409186 /* ContentView.swift in Sources */,

@@ -15,6 +15,7 @@ final class MapView: NSObject, UIViewRepresentable {
   var viewModel: MapViewModel
   
   private var ferryRouteSubscription: AnyCancellable?
+  private var topRoutesSubscription: AnyCancellable?
   
   // TODO(ss): actually pass this in
   init(viewModel: MapViewModel = MapViewModel()) {
@@ -30,8 +31,17 @@ final class MapView: NSObject, UIViewRepresentable {
     ferryRouteSubscription = viewModel.$ferryRoutes
       .receive(on: DispatchQueue.main)
       .map { $0.map { $0.polyline } }
-      .print()
       .sink(receiveValue: { $0.forEach { view.addOverlay($0) } })
+    
+    topRoutesSubscription = viewModel.topFerryRoutes
+      .receive(on: DispatchQueue.main)
+      .map { $0.map { return $0.polyline } }
+      .sink(receiveCompletion: { _ in return }, // TODO(ss)
+            receiveValue: {
+              view.removeOverlays(view.overlays)
+              $0.forEach { view.addOverlay($0) }
+            })
+
     return view
   }
   

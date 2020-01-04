@@ -8,9 +8,9 @@
 
 import CoreLocation
 import MapKit
+import Combine
 
-class MapViewModel: NSObject {
-  lazy var location: CLLocation? = locationManager.location
+class MapViewModel {
     
   var annotations: [FerryAnnotation] {
     return mapModel.ferries.map { ferry in
@@ -23,69 +23,45 @@ class MapViewModel: NSObject {
     return mapModel.centerPoint.coordinate
   }
   
+  // TODO(ss): Route used to draw the ferry
   @Published var ferryRoutes: [MKRoute] = []
   
-  private var locationManager = CLLocationManager()
-  
-  private var lastKnownLocation: CLLocation?
-  
-  private let mapModel = MockMapModel()
-  
-  override init() {
-    super.init()
-    locationManager.delegate = self
-    locationManager.requestWhenInUseAuthorization()
-    locationManager.desiredAccuracy = kCLLocationAccuracyBest
-    locationManager.distanceFilter = kCLDistanceFilterNone
-    
-    locationManager.startUpdatingLocation()
-    updateFerryRoutes()
-  }
-  
-  func updateFerryRoutes() {
-    let endpoints = mapModel.ferries.compactMap { $0.endpoints }
-    guard let endpoint = endpoints.first else { return }
-
-    let request = MKDirections.Request()
-    let sourcePlacemark = MKPlacemark(coordinate: endpoint.northLocation.coordinate)
-    request.source = MKMapItem(placemark: sourcePlacemark)
-    let destinationPlacemark = MKPlacemark(coordinate: endpoint.southLocation.coordinate)
-    request.destination = MKMapItem(placemark: destinationPlacemark)
-    request.transportType = .walking
-    let directions = MKDirections(request: request)
-    // TODO(ss): we might need to custom draw this
-    directions.calculate { [weak self] response, error in
-      guard let response = response else { return }
-//      self?.ferryRoutes = response.routes
-    }
-  }
-  
-  func updateTravelTimes(for userLocation: CLLocation) {
-    // TODO(ss): need to know if user is on north or south side
-    let ferryLocations = mapModel.ferries.map { $0.endpoints.northLocation }
-    for ferryLocation in ferryLocations {
-      let request = MKDirections.Request()
-      request.source = MKMapItem(placemark: MKPlacemark(coordinate: userLocation.coordinate))
-      request.destination = MKMapItem(placemark: MKPlacemark(coordinate: ferryLocation.coordinate))
-      request.transportType = .walking
-      let directions = MKDirections(request: request)
-      directions.calculate { response, error in
-        guard let response = response else { return } // TODO(ss): handle error
-        print("=====", response.routes.first?.expectedTravelTime)
+  var topFerryRoutes: AnyPublisher<[MKRoute], Error> {
+    let count = mapModel.ferries.count
+    return locationService.$userLocation
+      .compactMap { $0 }
+      .setFailureType(to: Error.self)
+      .eraseToAnyPublisher()
+      .flatMap { [weak self] location -> Publishers.Sequence<[AnyPublisher<MKRoute, Error>], Error> in
+        let sequence = self?.ferryDirections(from: location) ?? []
+        return Publishers.Sequence<[AnyPublisher<MKRoute, Error>], Error>(sequence: sequence)
       }
+      .flatMap { $0 }
+      .collect(count)
+      .eraseToAnyPublisher()
+  }
+  
+  func ferryLocations(from: CLLocation) -> [CLLocation] {
+    return mapModel.ferries.map {
+      locationService.isInNorth ? $0.endpoints.northLocation : $0.endpoints.southLocation
     }
   }
-}
-
-extension MapViewModel: CLLocationManagerDelegate {
-  func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
-    guard let userLocation = locations.first else { return }
-
-    // Don't calculate if the user's location hasn't changed
-    guard userLocation != lastKnownLocation else { return }
-
-    lastKnownLocation = userLocation
-    updateTravelTimes(for: userLocation)
+  
+  func ferryDirections(from location: CLLocation) -> [AnyPublisher<MKRoute, Error>] {
+    return ferryLocations(from: location).map {
+      locationService.getDirections(from: location, to: $0)
+    }
+  }
+      
+  private let mapModel: MockMapModel
+  private let locationService: LocationService
+  
+  private var userLocationSubscription: AnyCancellable?
+  
+  init(mapModel: MockMapModel = MockMapModel(),
+       locationService: LocationService = LocationService()) {
+    self.mapModel = mapModel
+    self.locationService = locationService
   }
 }
 
@@ -126,3 +102,5 @@ struct MockMapModel {
   private let buiksloterwegFerryLocation = CLLocation(latitude: 52.382217, longitude: 4.903215)
   private let centraalStationLocation = CLLocation(latitude: 52.380633, longitude: 4.899400)
 }
+
+struct NoSelfError: Error {}
