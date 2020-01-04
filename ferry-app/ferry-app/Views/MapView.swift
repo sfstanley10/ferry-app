@@ -21,6 +21,7 @@ struct MapView: UIViewRepresentable {
   func makeUIView(context: Context) -> MKMapView {
     let view = MKMapView(frame: .zero)
     view.delegate = viewModel
+    view.showsUserLocation = true
     view.register(FerryAnnotationView.self,
                   forAnnotationViewWithReuseIdentifier: String(describing: FerryAnnotationView.self))
     return view

@@ -12,11 +12,9 @@ import MapKit
 class MapViewModel: NSObject {
   lazy var location: CLLocation? = locationManager.location
   
-  private lazy var locationManager: CLLocationManager = {
-    let manager = CLLocationManager()
-    manager.requestWhenInUseAuthorization()
-    return manager
-  }()
+  private var locationManager = CLLocationManager()
+  
+  private var lastKnownLocation: CLLocation?
   
   let mapModel = MockMapModel()
   
@@ -31,6 +29,43 @@ class MapViewModel: NSObject {
   
   var centerPoint: CLLocationCoordinate2D {
     return mapModel.centerPoint.coordinate
+  }
+  
+  override init() {
+    super.init()
+    locationManager.delegate = self
+    locationManager.requestWhenInUseAuthorization()
+    locationManager.desiredAccuracy = kCLLocationAccuracyBest
+    locationManager.distanceFilter = kCLDistanceFilterNone
+    
+    locationManager.startUpdatingLocation()
+  }
+  
+  func updateTravelTimes(for userLocation: CLLocation) {
+    let ferryLocations = mapModel.ferryLocations.flatMap { $0.value.map { $0.0 } }
+    for ferryLocation in ferryLocations {
+      let request = MKDirections.Request()
+      request.source = MKMapItem(placemark: MKPlacemark(coordinate: userLocation.coordinate))
+      request.destination = MKMapItem(placemark: MKPlacemark(coordinate: ferryLocation.coordinate))
+      request.transportType = .walking
+      let directions = MKDirections(request: request)
+      directions.calculate { response, error in
+        guard let response = response else { return } // TODO(ss): handle error
+        print("=====", response.routes.first?.expectedTravelTime)
+      }
+    }
+  }
+}
+
+extension MapViewModel: CLLocationManagerDelegate {
+  func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+    guard let userLocation = locations.first else { return }
+
+    // Don't calculate if the user's location hasn't changed
+    guard userLocation != lastKnownLocation else { return }
+
+    lastKnownLocation = userLocation
+    updateTravelTimes(for: userLocation)
   }
 }
 
