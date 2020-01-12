@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1981AE9F23CB4F55004B12D8 /* holidays2020.json in Resources */ = {isa = PBXBuildFile; fileRef = 1981AE9E23CB4F55004B12D8 /* holidays2020.json */; };
+		1981AEA123CB4F71004B12D8 /* Holidays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1981AEA023CB4F71004B12D8 /* Holidays.swift */; };
+		1981AEA323CB4FE7004B12D8 /* Timetable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1981AEA223CB4FE7004B12D8 /* Timetable.swift */; };
+		1981AEA623CB5155004B12D8 /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1981AEA523CB5155004B12D8 /* DateExtensions.swift */; };
 		C108E91023A43BD800409186 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C108E90F23A43BD800409186 /* ContentView.swift */; };
 		C108E91323A43C6900409186 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C108E91223A43C6900409186 /* MapViewModel.swift */; };
 		C108E91723A4459600409186 /* FerryAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C108E91623A4459600409186 /* FerryAnnotation.swift */; };
@@ -47,11 +51,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1981AE9E23CB4F55004B12D8 /* holidays2020.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = holidays2020.json; path = "../../../Ferry timetables/holidays2020.json"; sourceTree = "<group>"; };
+		1981AEA023CB4F71004B12D8 /* Holidays.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = Holidays.swift; sourceTree = "<group>"; tabWidth = 2; };
+		1981AEA223CB4FE7004B12D8 /* Timetable.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = Timetable.swift; sourceTree = "<group>"; tabWidth = 2; };
+		1981AEA523CB5155004B12D8 /* DateExtensions.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = DateExtensions.swift; sourceTree = "<group>"; tabWidth = 2; };
 		C108E90F23A43BD800409186 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = "ferry-app/Views/ContentView.swift"; sourceTree = SOURCE_ROOT; };
 		C108E91223A43C6900409186 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
 		C108E91623A4459600409186 /* FerryAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FerryAnnotation.swift; sourceTree = "<group>"; };
 		C108E91823A5252F00409186 /* Ferry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ferry.swift; sourceTree = "<group>"; };
-		C108E91A23A5259700409186 /* Schedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
+		C108E91A23A5259700409186 /* Schedule.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; tabWidth = 2; };
 		C127F0C2236DCAC6008FBED1 /* ferry-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ferry-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C127F0C5236DCAC6008FBED1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C127F0C7236DCAC6008FBED1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -100,6 +108,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1981AE9D23CB4F25004B12D8 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				1981AE9E23CB4F55004B12D8 /* holidays2020.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		1981AEA423CB5139004B12D8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1981AEA523CB5155004B12D8 /* DateExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		C108E90E23A43A1100409186 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -129,6 +153,8 @@
 				C108E91823A5252F00409186 /* Ferry.swift */,
 				C108E91A23A5259700409186 /* Schedule.swift */,
 				C174B9BF23C0DA8B0006CCA3 /* RouteEndpoints.swift */,
+				1981AEA023CB4F71004B12D8 /* Holidays.swift */,
+				1981AEA223CB4FE7004B12D8 /* Timetable.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -170,6 +196,8 @@
 				C108E91423A4433100409186 /* Models */,
 				C108E91123A43C5300409186 /* ViewModels */,
 				C108E90E23A43A1100409186 /* Views */,
+				1981AE9D23CB4F25004B12D8 /* Data */,
+				1981AEA423CB5139004B12D8 /* Extensions */,
 				C127F0CB236DCAC8008FBED1 /* Assets.xcassets */,
 				C127F0D0236DCAC8008FBED1 /* LaunchScreen.storyboard */,
 				C127F0D3236DCAC8008FBED1 /* Info.plist */,
@@ -310,6 +338,7 @@
 			files = (
 				C127F0D2236DCAC8008FBED1 /* LaunchScreen.storyboard in Resources */,
 				C127F0CF236DCAC8008FBED1 /* Preview Assets.xcassets in Resources */,
+				1981AE9F23CB4F55004B12D8 /* holidays2020.json in Resources */,
 				C127F0CC236DCAC8008FBED1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,12 +370,15 @@
 				C174B9C623C149530006CCA3 /* FerryViewModel.swift in Sources */,
 				C108E91023A43BD800409186 /* ContentView.swift in Sources */,
 				C108E91B23A5259700409186 /* Schedule.swift in Sources */,
+				1981AEA623CB5155004B12D8 /* DateExtensions.swift in Sources */,
 				C127F0C8236DCAC6008FBED1 /* SceneDelegate.swift in Sources */,
 				C127F0CA236DCAC6008FBED1 /* MapView.swift in Sources */,
 				C174B9BA23BA7D100006CCA3 /* FerryAnnotationView.swift in Sources */,
 				C174B9BC23BA83BD0006CCA3 /* TimeTableView.swift in Sources */,
+				1981AEA123CB4F71004B12D8 /* Holidays.swift in Sources */,
 				C174B9BE23BA8D840006CCA3 /* LockupView.swift in Sources */,
 				C127F0CA236DCAC6008FBED1 /* MapView.swift in Sources */,
+				1981AEA323CB4FE7004B12D8 /* Timetable.swift in Sources */,
 				C108E91923A5252F00409186 /* Ferry.swift in Sources */,
 				C174B9C023C0DA8B0006CCA3 /* RouteEndpoints.swift in Sources */,
 				C174B9C423C1315B0006CCA3 /* TimetablesViewModel.swift in Sources */,

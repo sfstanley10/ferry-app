@@ -18,6 +18,9 @@ struct Schedule {
   
   /// Determines if the current schedule applies to the current date (as in days of the week match)
   func applies(to date: Date) -> Bool {
+    guard !date.isHoliday else {
+      return days.contains(7)
+    }
     let calendar = Calendar.current
     let weekdayComponent = calendar.dateComponents([.weekday], from: date).weekday ?? 0
     return days.contains(weekdayComponent)
