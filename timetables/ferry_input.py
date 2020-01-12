@@ -42,13 +42,12 @@ for file in os.listdir("."):
     name = getFerryName(lines)
     departurePoint = getDeparturePoint(lines)
     times = getDepartureTimes(lines, departurePoint)
-    timeDictionaries = createDeparturesDictionary(times)
 
     jsonDictionary = {
       "name": name,
       "departurePoint": { "name": departurePoint, "location": "" },
       "daysOfTheWeek": ["monday", "tuesday", "wednesday", "thursday", "friday"],
-      "departureTimes": timeDictionaries
+      "departureTimes": times
     }
     ferries.append(jsonDictionary)
 
