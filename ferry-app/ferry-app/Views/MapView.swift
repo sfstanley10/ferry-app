@@ -28,6 +28,8 @@ final class MapView: NSObject, UIViewRepresentable {
     view.showsUserLocation = true
     view.register(FerryAnnotationView.self,
                   forAnnotationViewWithReuseIdentifier: String(describing: FerryAnnotationView.self))
+    
+    // TODO(ss): store(in: &disposables)
     ferryRouteSubscription = viewModel.$ferryRoutes
       .receive(on: DispatchQueue.main)
       .map { $0.map { $0.polyline } }

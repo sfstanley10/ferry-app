@@ -37,3 +37,19 @@ struct Schedule {
     return times.filter { $0 >= date }
   }
 }
+
+// TODO(ss): move
+extension DateComponents {
+  static var weekdays: [DateComponents] {
+    return [DateComponents(weekday: 2),
+            DateComponents(weekday: 3),
+            DateComponents(weekday: 4),
+            DateComponents(weekday: 5),
+            DateComponents(weekday: 6)]
+  }
+  
+  static var weekends: [DateComponents] {
+    return [DateComponents(weekday: 1),
+            DateComponents(weekday: 7)]
+  }
+}

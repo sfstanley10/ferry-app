@@ -11,11 +11,17 @@ import CoreLocation
 import Combine
 
 class LocationService: NSObject {
+  
+  enum Direction {
+    case north
+    case south
+    case unknown
+  }
 
   @Published var userLocation: CLLocation?
   
-  var isInNorth: Bool {
-    return true
+  var userDirection: Direction {
+    return userLocation?.direction ?? .unknown
   }
   
   private var locationManager = CLLocationManager()
@@ -49,8 +55,7 @@ class LocationService: NSObject {
         }
         return promise(.success(route))
       }
-    }.eraseToAnyPublisher()
-    
+    }.eraseToAnyPublisher() 
   }
   
   func getDirections(fromCurrentLocationTo endLocation: CLLocation) -> AnyPublisher<MKRoute, Error> {
@@ -71,6 +76,13 @@ extension LocationService: CLLocationManagerDelegate {
 enum LocationServiceError: Error {
   case unknownError
   case noRouteError
+}
+
+extension CLLocation {
+  var direction: LocationService.Direction {
+    // TODO(ss)
+    return .north
+  }
 }
 
 extension CLLocationCoordinate2D: Equatable {

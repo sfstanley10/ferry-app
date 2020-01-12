@@ -23,8 +23,10 @@
 		C174B9BA23BA7D100006CCA3 /* FerryAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C174B9B923BA7D100006CCA3 /* FerryAnnotationView.swift */; };
 		C174B9BC23BA83BD0006CCA3 /* TimeTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C174B9BB23BA83BD0006CCA3 /* TimeTableView.swift */; };
 		C174B9BE23BA8D840006CCA3 /* LockupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C174B9BD23BA8D840006CCA3 /* LockupView.swift */; };
-		C174B9C023C0DA8B0006CCA3 /* RouteEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = C174B9BF23C0DA8B0006CCA3 /* RouteEndpoint.swift */; };
+		C174B9C023C0DA8B0006CCA3 /* RouteEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = C174B9BF23C0DA8B0006CCA3 /* RouteEndpoints.swift */; };
 		C174B9C223C0EB3C0006CCA3 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C174B9C123C0EB3C0006CCA3 /* LocationService.swift */; };
+		C174B9C423C1315B0006CCA3 /* TimetablesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C174B9C323C1315B0006CCA3 /* TimetablesViewModel.swift */; };
+		C174B9C623C149530006CCA3 /* FerryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C174B9C523C149530006CCA3 /* FerryViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,8 +69,10 @@
 		C174B9B923BA7D100006CCA3 /* FerryAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FerryAnnotationView.swift; sourceTree = "<group>"; };
 		C174B9BB23BA83BD0006CCA3 /* TimeTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTableView.swift; sourceTree = "<group>"; };
 		C174B9BD23BA8D840006CCA3 /* LockupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockupView.swift; sourceTree = "<group>"; };
-		C174B9BF23C0DA8B0006CCA3 /* RouteEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteEndpoint.swift; sourceTree = "<group>"; };
+		C174B9BF23C0DA8B0006CCA3 /* RouteEndpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteEndpoints.swift; sourceTree = "<group>"; };
 		C174B9C123C0EB3C0006CCA3 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		C174B9C323C1315B0006CCA3 /* TimetablesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimetablesViewModel.swift; sourceTree = "<group>"; };
+		C174B9C523C149530006CCA3 /* FerryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FerryViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +117,8 @@
 			children = (
 				C108E91623A4459600409186 /* FerryAnnotation.swift */,
 				C108E91223A43C6900409186 /* MapViewModel.swift */,
+				C174B9C323C1315B0006CCA3 /* TimetablesViewModel.swift */,
+				C174B9C523C149530006CCA3 /* FerryViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -122,7 +128,7 @@
 			children = (
 				C108E91823A5252F00409186 /* Ferry.swift */,
 				C108E91A23A5259700409186 /* Schedule.swift */,
-				C174B9BF23C0DA8B0006CCA3 /* RouteEndpoint.swift */,
+				C174B9BF23C0DA8B0006CCA3 /* RouteEndpoints.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -332,6 +338,7 @@
 				C174B9C223C0EB3C0006CCA3 /* LocationService.swift in Sources */,
 				C108E91723A4459600409186 /* FerryAnnotation.swift in Sources */,
 				C127F0C6236DCAC6008FBED1 /* AppDelegate.swift in Sources */,
+				C174B9C623C149530006CCA3 /* FerryViewModel.swift in Sources */,
 				C108E91023A43BD800409186 /* ContentView.swift in Sources */,
 				C108E91B23A5259700409186 /* Schedule.swift in Sources */,
 				C127F0C8236DCAC6008FBED1 /* SceneDelegate.swift in Sources */,
@@ -341,7 +348,8 @@
 				C174B9BE23BA8D840006CCA3 /* LockupView.swift in Sources */,
 				C127F0CA236DCAC6008FBED1 /* MapView.swift in Sources */,
 				C108E91923A5252F00409186 /* Ferry.swift in Sources */,
-				C174B9C023C0DA8B0006CCA3 /* RouteEndpoint.swift in Sources */,
+				C174B9C023C0DA8B0006CCA3 /* RouteEndpoints.swift in Sources */,
+				C174B9C423C1315B0006CCA3 /* TimetablesViewModel.swift in Sources */,
 				C108E91323A43C6900409186 /* MapViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

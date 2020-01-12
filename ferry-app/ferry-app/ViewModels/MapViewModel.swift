@@ -15,7 +15,9 @@ class MapViewModel {
   var annotations: [FerryAnnotation] {
     return mapModel.ferries.map { ferry in
       let state: DepartureState = ferry.name == "906" ? .available : .unavailable
-      return FerryAnnotation(ferry.endpoints.northLocation.coordinate, title: ferry.name, state: state)
+      return FerryAnnotation(ferry.endpoints.northLocation.location.coordinate,
+                             title: ferry.name,
+                             state: state)
     }
   }
   
@@ -41,9 +43,14 @@ class MapViewModel {
       .eraseToAnyPublisher()
   }
   
-  func ferryLocations(from: CLLocation) -> [CLLocation] {
-    return mapModel.ferries.map {
-      locationService.isInNorth ? $0.endpoints.northLocation : $0.endpoints.southLocation
+  func ferryLocations(from location: CLLocation) -> [CLLocation] {
+    switch location.direction {
+    case .north:
+      return mapModel.ferries.map { $0.endpoints.northLocation.location }
+    case .south:
+      return mapModel.ferries.map { $0.endpoints.southLocation.location }
+    case .unknown:
+      return []
     }
   }
   
@@ -72,8 +79,9 @@ struct MockMapModel {
   }
   
   var ndsmFerry: Ferry {
+    let times = [DateComponents(hour: 7, minute: 00)]
     return Ferry(name: "906",
-                 timeTable: [:],
+                 timeTable: [.southBound: [Schedule(daysOfTheWeek: DateComponents.weekends, times: times)]],
                  tripDuration: 14.0 * 60.0,
                  endpoints: ndsmFerryEndpoints)
 
@@ -88,14 +96,18 @@ struct MockMapModel {
   
   let centerPoint = CLLocation(latitude: 52.388299, longitude: 4.905057)
   
-  private var ndsmFerryEndpoints: RouteEndpoint {
-    return RouteEndpoint(northLocation: ndsmFerryLocation,
-                         southLocation: centraalStationLocation)
+  private var ndsmFerryEndpoints: RouteEndpoints {
+    return RouteEndpoints(northLocation: ndsmFerryLocation,
+                          northLocationName: "NDSM",
+                          southLocation: centraalStationLocation,
+                          southLocationName: "Centraal Station")
   }
   
-  private var buiksloterwegFerryEndpoints: RouteEndpoint {
-    return RouteEndpoint(northLocation: buiksloterwegFerryLocation,
-                         southLocation: centraalStationLocation)
+  private var buiksloterwegFerryEndpoints: RouteEndpoints {
+    return RouteEndpoints(northLocation: buiksloterwegFerryLocation,
+                          northLocationName: "Buiksloterweg",
+                          southLocation: centraalStationLocation,
+                          southLocationName: "Centraal Station")
   }
   
   private let ndsmFerryLocation = CLLocation(latitude: 52.401211, longitude: 4.891276)

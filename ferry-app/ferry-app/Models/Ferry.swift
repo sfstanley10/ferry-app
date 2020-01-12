@@ -19,7 +19,7 @@ struct Ferry {
   let name: String
   let timeTable: [Direction: [Schedule]]
   let tripDuration: TimeInterval
-  let endpoints: RouteEndpoint
+  let endpoints: RouteEndpoints
   
   func schedule(forDirection direction: Direction, date: Date) -> Schedule? {
     guard let schedules = timeTable[direction] else { return nil }
@@ -34,18 +34,18 @@ struct Ferry {
   func startPoint(for direction: Ferry.Direction) -> CLLocation {
     switch direction {
     case .northBound:
-      return endpoints.southLocation
+      return endpoints.southLocation.location
     case .southBound:
-      return endpoints.northLocation
+      return endpoints.northLocation.location
     }
   }
   
   func endPoint(for direction: Ferry.Direction) -> CLLocation {
     switch direction {
     case .northBound:
-      return endpoints.northLocation
+      return endpoints.northLocation.location
     case .southBound:
-      return endpoints.southLocation
+      return endpoints.southLocation.location
     }
   }
 }
