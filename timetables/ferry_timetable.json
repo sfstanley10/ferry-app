@@ -1,0 +1,11152 @@
+[
+  {
+    "departurePoint": {
+      "name": "NDSM", 
+      "location": ""
+    }, 
+    "departureTimes": [
+      {
+        "minute": "52", 
+        "hour": "06"
+      }, 
+      {
+        "minute": "22", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "40", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "20", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "40", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "20", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "40", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "20", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "52", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "22", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "52", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "22", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "52", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "22", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "52", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "22", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "52", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "22", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "52", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "22", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "40", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "20", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "40", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "20", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "40", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "20", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "40", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "20", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "40", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "20", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "40", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "20", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "40", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "20", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "40", 
+        "hour": "23"
+      }
+    ], 
+    "daysOfTheWeek": [
+      "monday", 
+      "tuesday", 
+      "wednesday", 
+      "thursday", 
+      "friday"
+    ], 
+    "name": "903"
+  }, 
+  {
+    "departurePoint": {
+      "name": "Centraal Station", 
+      "location": ""
+    }, 
+    "departureTimes": [
+      {
+        "minute": "30", 
+        "hour": "06"
+      }, 
+      {
+        "minute": "34", 
+        "hour": "06"
+      }, 
+      {
+        "minute": "38", 
+        "hour": "06"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "06"
+      }, 
+      {
+        "minute": "46", 
+        "hour": "06"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "06"
+      }, 
+      {
+        "minute": "54", 
+        "hour": "06"
+      }, 
+      {
+        "minute": "58", 
+        "hour": "06"
+      }, 
+      {
+        "minute": "02", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "06", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "10", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "14", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "18", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "22", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "26", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "34", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "38", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "46", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "54", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "58", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "02", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "06", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "10", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "14", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "18", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "22", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "26", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "34", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "38", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "46", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "54", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "58", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "02", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "06", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "10", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "14", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "18", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "22", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "26", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "34", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "38", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "46", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "54", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "58", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "02", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "06", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "10", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "14", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "18", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "22", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "26", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "34", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "38", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "46", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "51", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "56", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "01", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "05", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "09", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "13", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "17", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "21", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "25", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "29", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "33", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "37", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "41", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "45", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "49", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "53", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "01", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "05", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "09", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "13", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "17", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "21", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "25", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "29", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "33", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "37", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "41", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "45", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "49", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "53", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "01", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "05", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "09", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "13", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "17", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "21", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "25", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "29", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "33", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "37", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "41", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "45", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "49", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "53", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "01", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "05", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "09", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "13", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "17", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "21", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "25", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "29", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "33", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "37", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "41", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "45", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "49", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "53", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "01", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "05", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "09", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "13", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "17", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "21", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "25", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "29", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "33", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "37", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "41", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "45", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "49", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "53", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "01", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "05", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "09", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "13", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "17", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "21", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "25", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "29", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "33", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "37", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "41", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "45", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "49", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "53", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "01", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "05", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "09", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "13", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "17", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "21", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "25", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "29", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "33", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "37", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "41", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "45", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "49", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "53", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "01", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "05", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "09", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "13", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "17", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "21", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "25", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "29", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "33", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "37", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "41", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "45", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "49", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "53", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "01", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "05", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "09", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "13", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "17", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "21", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "25", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "29", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "34", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "39", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "43", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "47", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "51", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "55", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "59", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "03", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "07", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "11", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "15", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "19", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "23", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "27", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "31", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "35", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "39", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "43", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "47", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "51", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "55", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "59", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "03", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "07", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "11", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "15", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "19", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "23", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "27", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "31", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "35", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "39", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "43", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "47", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "51", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "55", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "59", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "03", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "07", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "11", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "15", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "19", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "23", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "27", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "31", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "35", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "39", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "43", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "47", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "51", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "55", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "59", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "03", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "07", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "11", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "15", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "19", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "23", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "27", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "31", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "35", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "39", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "43", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "47", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "55", 
+        "hour": "23"
+      }
+    ], 
+    "daysOfTheWeek": [
+      "monday", 
+      "tuesday", 
+      "wednesday", 
+      "thursday", 
+      "friday"
+    ], 
+    "name": "Centraal"
+  }, 
+  {
+    "departurePoint": {
+      "name": "Centraal Station", 
+      "location": ""
+    }, 
+    "departureTimes": [
+      {
+        "minute": "30", 
+        "hour": "06"
+      }, 
+      {
+        "minute": "36", 
+        "hour": "06"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "06"
+      }, 
+      {
+        "minute": "48", 
+        "hour": "06"
+      }, 
+      {
+        "minute": "54", 
+        "hour": "06"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "06", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "18", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "24", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "36", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "48", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "54", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "06", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "18", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "24", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "36", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "48", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "54", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "06", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "18", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "24", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "36", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "48", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "54", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "06", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "18", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "24", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "36", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "48", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "54", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "06", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "18", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "24", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "36", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "48", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "54", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "06", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "10", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "14", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "18", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "22", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "26", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "34", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "38", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "46", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "54", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "58", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "02", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "06", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "10", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "14", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "18", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "22", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "26", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "34", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "38", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "46", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "54", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "58", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "02", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "06", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "10", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "14", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "18", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "22", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "26", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "34", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "38", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "46", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "54", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "58", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "02", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "06", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "10", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "14", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "18", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "22", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "26", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "34", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "38", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "46", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "54", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "58", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "02", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "06", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "10", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "14", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "18", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "22", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "26", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "34", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "38", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "46", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "54", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "58", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "02", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "06", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "10", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "14", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "18", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "22", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "26", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "34", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "38", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "46", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "54", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "58", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "02", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "06", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "10", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "14", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "18", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "22", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "26", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "34", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "38", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "46", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "54", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "58", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "02", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "06", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "10", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "14", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "18", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "22", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "26", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "34", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "38", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "46", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "54", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "58", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "02", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "08", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "14", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "20", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "26", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "32", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "38", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "44", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "56", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "02", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "08", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "14", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "20", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "26", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "32", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "38", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "44", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "56", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "02", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "08", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "14", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "20", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "26", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "32", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "38", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "44", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "56", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "02", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "08", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "14", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "20", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "26", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "32", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "38", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "44", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "56", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "02", 
+        "hour": "00"
+      }, 
+      {
+        "minute": "08", 
+        "hour": "00"
+      }, 
+      {
+        "minute": "20", 
+        "hour": "00"
+      }
+    ], 
+    "daysOfTheWeek": [
+      "monday", 
+      "tuesday", 
+      "wednesday", 
+      "thursday", 
+      "friday"
+    ], 
+    "name": "Centraal"
+  }, 
+  {
+    "departurePoint": {
+      "name": "Centraal Station", 
+      "location": ""
+    }, 
+    "departureTimes": [
+      {
+        "minute": "27", 
+        "hour": "06"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "06"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "06"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "27", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "27", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "27", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "27", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "27", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "27", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "27", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "27", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "27", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "27", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "27", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "27", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "27", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "27", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "27", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "27", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "27", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "23"
+      }
+    ], 
+    "daysOfTheWeek": [
+      "monday", 
+      "tuesday", 
+      "wednesday", 
+      "thursday", 
+      "friday"
+    ], 
+    "name": "Centraal"
+  }, 
+  {
+    "departurePoint": {
+      "name": "Buiksloterweg", 
+      "location": ""
+    }, 
+    "departureTimes": [
+      {
+        "minute": "30", 
+        "hour": "06"
+      }, 
+      {
+        "minute": "36", 
+        "hour": "06"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "06"
+      }, 
+      {
+        "minute": "48", 
+        "hour": "06"
+      }, 
+      {
+        "minute": "54", 
+        "hour": "06"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "06", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "18", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "24", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "36", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "48", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "54", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "06", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "18", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "24", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "36", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "48", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "54", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "06", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "18", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "24", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "36", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "48", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "54", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "06", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "18", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "24", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "36", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "48", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "54", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "06", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "18", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "24", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "36", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "48", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "54", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "04", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "08", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "16", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "20", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "24", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "28", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "32", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "36", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "40", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "44", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "48", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "52", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "56", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "04", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "08", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "16", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "20", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "24", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "28", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "32", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "36", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "40", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "44", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "48", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "52", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "56", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "04", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "08", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "16", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "20", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "24", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "28", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "32", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "36", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "40", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "44", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "48", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "52", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "56", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "04", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "08", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "16", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "20", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "24", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "28", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "32", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "36", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "40", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "44", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "48", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "52", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "56", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "04", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "08", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "16", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "20", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "24", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "28", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "32", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "36", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "40", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "44", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "48", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "52", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "56", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "04", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "08", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "16", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "20", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "24", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "28", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "32", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "36", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "40", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "44", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "48", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "52", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "56", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "04", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "08", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "16", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "20", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "24", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "28", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "32", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "36", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "40", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "44", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "48", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "52", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "56", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "04", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "08", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "16", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "20", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "24", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "28", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "32", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "36", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "40", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "44", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "48", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "52", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "56", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "04", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "08", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "14", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "20", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "26", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "32", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "38", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "44", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "56", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "02", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "08", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "14", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "20", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "26", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "32", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "38", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "44", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "56", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "02", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "08", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "14", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "20", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "26", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "32", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "38", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "44", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "56", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "02", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "08", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "14", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "20", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "26", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "32", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "38", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "44", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "56", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "02", 
+        "hour": "00"
+      }, 
+      {
+        "minute": "14", 
+        "hour": "00"
+      }, 
+      {
+        "minute": "26", 
+        "hour": "00"
+      }
+    ], 
+    "daysOfTheWeek": [
+      "monday", 
+      "tuesday", 
+      "wednesday", 
+      "thursday", 
+      "friday"
+    ], 
+    "name": "Buiksloterweg"
+  }, 
+  {
+    "departurePoint": {
+      "name": "Centraal Station", 
+      "location": ""
+    }, 
+    "departureTimes": [
+      {
+        "minute": "27", 
+        "hour": "06"
+      }, 
+      {
+        "minute": "35", 
+        "hour": "06"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "06"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "06"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "06"
+      }, 
+      {
+        "minute": "05", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "20", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "27", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "35", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "05", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "20", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "27", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "35", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "05", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "20", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "27", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "35", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "05", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "20", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "27", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "35", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "05", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "20", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "27", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "35", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "05", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "20", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "27", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "35", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "05", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "20", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "27", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "35", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "05", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "20", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "27", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "35", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "05", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "20", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "27", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "35", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "05", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "20", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "27", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "35", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "05", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "20", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "27", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "35", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "05", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "27", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "27", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "27", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "27", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "27", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "27", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "23"
+      }
+    ], 
+    "daysOfTheWeek": [
+      "monday", 
+      "tuesday", 
+      "wednesday", 
+      "thursday", 
+      "friday"
+    ], 
+    "name": "Centraal"
+  }, 
+  {
+    "departurePoint": {
+      "name": "Centraal Station", 
+      "location": ""
+    }, 
+    "departureTimes": [
+      {
+        "minute": "30", 
+        "hour": "06"
+      }, 
+      {
+        "minute": "36", 
+        "hour": "06"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "06"
+      }, 
+      {
+        "minute": "48", 
+        "hour": "06"
+      }, 
+      {
+        "minute": "54", 
+        "hour": "06"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "06", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "18", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "24", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "36", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "48", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "54", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "06", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "18", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "24", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "36", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "48", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "54", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "06", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "18", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "24", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "36", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "48", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "54", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "06", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "18", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "24", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "36", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "48", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "54", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "06", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "18", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "24", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "36", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "48", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "54", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "06", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "10", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "14", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "18", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "22", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "26", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "34", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "38", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "46", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "54", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "58", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "02", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "06", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "10", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "14", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "18", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "22", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "26", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "34", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "38", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "46", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "54", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "58", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "02", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "06", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "10", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "14", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "18", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "22", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "26", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "34", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "38", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "46", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "54", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "58", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "02", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "06", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "10", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "14", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "18", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "22", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "26", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "34", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "38", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "46", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "54", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "58", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "02", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "06", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "10", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "14", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "18", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "22", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "26", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "34", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "38", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "46", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "54", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "58", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "02", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "06", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "10", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "14", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "18", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "22", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "26", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "34", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "38", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "46", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "54", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "58", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "02", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "06", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "10", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "14", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "18", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "22", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "26", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "34", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "38", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "46", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "54", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "58", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "02", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "06", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "10", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "14", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "18", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "22", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "26", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "34", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "38", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "46", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "54", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "58", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "02", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "08", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "14", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "20", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "26", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "32", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "38", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "44", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "56", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "02", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "08", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "14", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "20", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "26", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "32", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "38", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "44", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "56", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "02", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "08", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "14", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "20", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "26", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "32", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "38", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "44", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "56", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "02", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "08", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "14", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "20", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "26", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "32", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "38", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "44", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "56", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "02", 
+        "hour": "00"
+      }, 
+      {
+        "minute": "08", 
+        "hour": "00"
+      }, 
+      {
+        "minute": "14", 
+        "hour": "00"
+      }, 
+      {
+        "minute": "20", 
+        "hour": "00"
+      }, 
+      {
+        "minute": "26", 
+        "hour": "00"
+      }
+    ], 
+    "daysOfTheWeek": [
+      "monday", 
+      "tuesday", 
+      "wednesday", 
+      "thursday", 
+      "friday"
+    ], 
+    "name": "November"
+  }, 
+  {
+    "departurePoint": {
+      "name": "Buiksloterwegveer", 
+      "location": ""
+    }, 
+    "departureTimes": [], 
+    "daysOfTheWeek": [
+      "monday", 
+      "tuesday", 
+      "wednesday", 
+      "thursday", 
+      "friday"
+    ], 
+    "name": "907"
+  }, 
+  {
+    "departurePoint": {
+      "name": "Azartplein", 
+      "location": ""
+    }, 
+    "departureTimes": [
+      {
+        "minute": "30", 
+        "hour": "06"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "06"
+      }, 
+      {
+        "minute": "10", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "10", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "10", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "10", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "10", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "10", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "10", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "10", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "10", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "10", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "10", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "10", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "10", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "10", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "10", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "10", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "22"
+      }
+    ], 
+    "daysOfTheWeek": [
+      "monday", 
+      "tuesday", 
+      "wednesday", 
+      "thursday", 
+      "friday"
+    ], 
+    "name": "915"
+  }, 
+  {
+    "departurePoint": {
+      "name": "NDSM", 
+      "location": ""
+    }, 
+    "departureTimes": [
+      {
+        "minute": "02", 
+        "hour": "00"
+      }, 
+      {
+        "minute": "38", 
+        "hour": "00"
+      }, 
+      {
+        "minute": "14", 
+        "hour": "01"
+      }, 
+      {
+        "minute": "49", 
+        "hour": "01"
+      }
+    ], 
+    "daysOfTheWeek": [
+      "monday", 
+      "tuesday", 
+      "wednesday", 
+      "thursday", 
+      "friday"
+    ], 
+    "name": "905"
+  }, 
+  {
+    "departurePoint": {
+      "name": "Centraal Station", 
+      "location": ""
+    }, 
+    "departureTimes": [
+      {
+        "minute": "12", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "27", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "27", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "27", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "27", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "27", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "27", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "27", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "27", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "27", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "27", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "27", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "27", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "27", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "27", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "27", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "23"
+      }
+    ], 
+    "daysOfTheWeek": [
+      "monday", 
+      "tuesday", 
+      "wednesday", 
+      "thursday", 
+      "friday"
+    ], 
+    "name": "Centraal"
+  }, 
+  {
+    "departurePoint": {
+      "name": "Centraal Station", 
+      "location": ""
+    }, 
+    "departureTimes": [
+      {
+        "minute": "30", 
+        "hour": "06"
+      }, 
+      {
+        "minute": "34", 
+        "hour": "06"
+      }, 
+      {
+        "minute": "38", 
+        "hour": "06"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "06"
+      }, 
+      {
+        "minute": "46", 
+        "hour": "06"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "06"
+      }, 
+      {
+        "minute": "54", 
+        "hour": "06"
+      }, 
+      {
+        "minute": "58", 
+        "hour": "06"
+      }, 
+      {
+        "minute": "02", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "06", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "10", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "14", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "18", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "22", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "26", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "34", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "38", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "46", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "54", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "58", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "02", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "06", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "10", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "14", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "18", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "22", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "26", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "34", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "38", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "46", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "54", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "58", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "02", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "06", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "10", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "14", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "18", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "22", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "26", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "34", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "38", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "46", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "54", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "58", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "02", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "06", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "10", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "14", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "18", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "22", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "26", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "34", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "38", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "46", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "51", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "56", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "01", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "05", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "09", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "13", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "17", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "21", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "25", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "29", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "33", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "37", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "41", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "45", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "49", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "53", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "01", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "05", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "09", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "13", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "17", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "21", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "25", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "29", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "33", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "37", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "41", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "45", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "49", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "53", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "01", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "05", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "09", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "13", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "17", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "21", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "25", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "29", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "33", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "37", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "41", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "45", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "49", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "53", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "01", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "05", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "09", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "13", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "17", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "21", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "25", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "29", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "33", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "37", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "41", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "45", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "49", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "53", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "01", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "05", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "09", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "13", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "17", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "21", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "25", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "29", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "33", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "37", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "41", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "45", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "49", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "53", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "01", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "05", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "09", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "13", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "17", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "21", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "25", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "29", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "33", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "37", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "41", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "45", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "49", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "53", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "01", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "05", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "09", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "13", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "17", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "21", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "25", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "29", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "33", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "37", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "41", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "45", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "49", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "53", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "01", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "05", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "09", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "13", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "17", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "21", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "25", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "29", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "33", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "37", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "41", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "45", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "49", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "53", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "01", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "05", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "09", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "13", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "17", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "21", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "25", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "29", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "34", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "39", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "43", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "47", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "51", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "55", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "59", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "03", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "07", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "11", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "15", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "19", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "23", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "27", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "31", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "35", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "39", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "43", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "47", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "51", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "55", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "59", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "03", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "07", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "11", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "15", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "19", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "23", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "27", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "31", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "35", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "39", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "43", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "47", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "51", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "55", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "59", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "03", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "07", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "11", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "15", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "19", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "23", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "27", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "31", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "35", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "39", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "43", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "47", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "51", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "55", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "59", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "03", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "07", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "11", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "15", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "19", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "23", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "27", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "31", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "35", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "39", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "43", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "47", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "51", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "55", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "02", 
+        "hour": "00"
+      }, 
+      {
+        "minute": "08", 
+        "hour": "00"
+      }, 
+      {
+        "minute": "14", 
+        "hour": "00"
+      }, 
+      {
+        "minute": "20", 
+        "hour": "00"
+      }, 
+      {
+        "minute": "26", 
+        "hour": "00"
+      }
+    ], 
+    "daysOfTheWeek": [
+      "monday", 
+      "tuesday", 
+      "wednesday", 
+      "thursday", 
+      "friday"
+    ], 
+    "name": "Centraal"
+  }, 
+  {
+    "departurePoint": {
+      "name": "Buiksloterweg", 
+      "location": ""
+    }, 
+    "departureTimes": [
+      {
+        "minute": "24", 
+        "hour": "06"
+      }, 
+      {
+        "minute": "28", 
+        "hour": "06"
+      }, 
+      {
+        "minute": "32", 
+        "hour": "06"
+      }, 
+      {
+        "minute": "36", 
+        "hour": "06"
+      }, 
+      {
+        "minute": "40", 
+        "hour": "06"
+      }, 
+      {
+        "minute": "44", 
+        "hour": "06"
+      }, 
+      {
+        "minute": "48", 
+        "hour": "06"
+      }, 
+      {
+        "minute": "52", 
+        "hour": "06"
+      }, 
+      {
+        "minute": "56", 
+        "hour": "06"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "04", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "08", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "16", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "20", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "25", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "34", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "38", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "46", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "54", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "58", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "02", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "06", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "10", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "14", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "18", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "22", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "26", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "34", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "38", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "46", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "54", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "58", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "02", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "06", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "10", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "14", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "18", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "22", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "26", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "34", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "38", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "46", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "54", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "58", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "02", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "06", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "10", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "14", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "18", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "22", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "26", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "34", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "38", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "47", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "51", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "55", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "59", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "03", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "07", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "11", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "15", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "19", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "23", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "27", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "31", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "35", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "39", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "43", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "47", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "51", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "55", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "59", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "03", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "07", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "11", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "15", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "19", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "23", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "27", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "31", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "35", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "39", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "43", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "47", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "51", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "55", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "59", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "03", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "07", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "11", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "15", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "19", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "23", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "27", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "31", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "35", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "39", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "43", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "47", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "51", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "55", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "59", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "03", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "07", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "11", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "15", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "19", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "23", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "27", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "31", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "35", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "39", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "43", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "47", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "51", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "55", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "59", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "03", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "07", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "11", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "15", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "19", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "23", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "27", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "31", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "35", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "39", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "43", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "47", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "51", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "55", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "59", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "03", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "07", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "11", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "15", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "19", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "23", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "27", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "31", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "36", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "41", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "45", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "49", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "53", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "01", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "05", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "09", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "13", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "17", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "21", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "25", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "29", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "33", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "37", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "41", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "45", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "49", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "53", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "01", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "05", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "09", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "13", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "17", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "21", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "25", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "29", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "33", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "37", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "41", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "45", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "49", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "53", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "01", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "05", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "09", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "13", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "17", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "21", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "25", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "29", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "33", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "37", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "41", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "45", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "49", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "53", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "01", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "05", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "09", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "13", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "17", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "21", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "25", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "29", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "33", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "37", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "41", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "45", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "49", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "53", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "01", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "05", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "09", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "13", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "17", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "21", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "25", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "29", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "33", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "37", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "41", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "45", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "49", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "53", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "01", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "05", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "09", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "13", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "17", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "21", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "25", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "29", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "33", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "37", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "41", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "45", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "49", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "53", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "01", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "05", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "09", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "13", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "17", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "21", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "25", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "29", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "33", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "37", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "41", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "45", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "49", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "55", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "02", 
+        "hour": "00"
+      }, 
+      {
+        "minute": "08", 
+        "hour": "00"
+      }, 
+      {
+        "minute": "14", 
+        "hour": "00"
+      }, 
+      {
+        "minute": "20", 
+        "hour": "00"
+      }, 
+      {
+        "minute": "26", 
+        "hour": "00"
+      }, 
+      {
+        "minute": "32", 
+        "hour": "00"
+      }
+    ], 
+    "daysOfTheWeek": [
+      "monday", 
+      "tuesday", 
+      "wednesday", 
+      "thursday", 
+      "friday"
+    ], 
+    "name": "Buiksloterweg"
+  }, 
+  {
+    "departurePoint": {
+      "name": "Buiksloterweg", 
+      "location": ""
+    }, 
+    "departureTimes": [
+      {
+        "minute": "30", 
+        "hour": "06"
+      }, 
+      {
+        "minute": "36", 
+        "hour": "06"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "06"
+      }, 
+      {
+        "minute": "48", 
+        "hour": "06"
+      }, 
+      {
+        "minute": "54", 
+        "hour": "06"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "06", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "18", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "24", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "36", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "48", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "54", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "06", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "18", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "24", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "36", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "48", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "54", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "06", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "18", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "24", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "36", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "48", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "54", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "06", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "18", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "24", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "36", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "48", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "54", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "06", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "18", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "24", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "36", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "48", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "54", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "04", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "08", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "16", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "20", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "24", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "28", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "32", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "36", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "40", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "44", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "48", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "52", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "56", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "04", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "08", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "16", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "20", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "24", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "28", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "32", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "36", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "40", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "44", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "48", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "52", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "56", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "04", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "08", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "16", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "20", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "24", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "28", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "32", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "36", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "40", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "44", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "48", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "52", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "56", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "04", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "08", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "16", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "20", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "24", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "28", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "32", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "36", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "40", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "44", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "48", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "52", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "56", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "04", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "08", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "16", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "20", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "24", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "28", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "32", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "36", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "40", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "44", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "48", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "52", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "56", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "04", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "08", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "16", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "20", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "24", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "28", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "32", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "36", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "40", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "44", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "48", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "52", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "56", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "04", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "08", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "16", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "20", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "24", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "28", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "32", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "36", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "40", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "44", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "48", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "52", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "56", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "04", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "08", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "16", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "20", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "24", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "28", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "32", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "36", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "40", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "44", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "48", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "52", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "56", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "04", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "08", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "14", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "20", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "26", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "32", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "38", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "44", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "56", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "02", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "08", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "14", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "20", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "26", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "32", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "38", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "44", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "56", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "02", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "08", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "14", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "20", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "26", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "32", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "38", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "44", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "56", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "02", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "08", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "14", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "20", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "26", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "32", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "38", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "44", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "56", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "02", 
+        "hour": "00"
+      }, 
+      {
+        "minute": "08", 
+        "hour": "00"
+      }, 
+      {
+        "minute": "14", 
+        "hour": "00"
+      }, 
+      {
+        "minute": "20", 
+        "hour": "00"
+      }, 
+      {
+        "minute": "26", 
+        "hour": "00"
+      }, 
+      {
+        "minute": "32", 
+        "hour": "00"
+      }
+    ], 
+    "daysOfTheWeek": [
+      "monday", 
+      "tuesday", 
+      "wednesday", 
+      "thursday", 
+      "friday"
+    ], 
+    "name": "November"
+  }, 
+  {
+    "departurePoint": {
+      "name": "NDSM", 
+      "location": ""
+    }, 
+    "departureTimes": [
+      {
+        "minute": "00", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "45", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "15", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "45", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "15", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "45", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "15", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "45", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "15", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "45", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "15", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "45", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "23"
+      }
+    ], 
+    "daysOfTheWeek": [
+      "monday", 
+      "tuesday", 
+      "wednesday", 
+      "thursday", 
+      "friday"
+    ], 
+    "name": "906"
+  }, 
+  {
+    "departurePoint": {
+      "name": "Pontsteiger", 
+      "location": ""
+    }, 
+    "departureTimes": [
+      {
+        "minute": "44", 
+        "hour": "06"
+      }, 
+      {
+        "minute": "14", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "10", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "10", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "10", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "44", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "14", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "44", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "14", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "44", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "14", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "44", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "14", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "44", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "14", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "44", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "14", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "10", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "10", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "10", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "10", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "10", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "10", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "10", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "23"
+      }
+    ], 
+    "daysOfTheWeek": [
+      "monday", 
+      "tuesday", 
+      "wednesday", 
+      "thursday", 
+      "friday"
+    ], 
+    "name": "903"
+  }, 
+  {
+    "departurePoint": {
+      "name": "Distelweg", 
+      "location": ""
+    }, 
+    "departureTimes": [
+      {
+        "minute": "37", 
+        "hour": "06"
+      }, 
+      {
+        "minute": "07", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "22", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "37", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "52", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "07", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "22", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "37", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "52", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "07", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "22", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "37", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "52", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "07", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "37", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "07", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "37", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "07", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "37", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "07", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "37", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "07", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "37", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "07", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "37", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "07", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "22", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "37", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "52", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "07", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "22", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "37", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "52", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "07", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "22", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "37", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "52", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "07", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "22", 
+        "hour": "19"
+      }
+    ], 
+    "daysOfTheWeek": [
+      "monday", 
+      "tuesday", 
+      "wednesday", 
+      "thursday", 
+      "friday"
+    ], 
+    "name": "900"
+  }, 
+  {
+    "departurePoint": {
+      "name": "Zamenhofstraat", 
+      "location": ""
+    }, 
+    "departureTimes": [
+      {
+        "minute": "24", 
+        "hour": "06"
+      }, 
+      {
+        "minute": "44", 
+        "hour": "06"
+      }, 
+      {
+        "minute": "04", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "24", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "44", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "04", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "24", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "44", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "04", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "24", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "44", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "04", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "24", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "44", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "04", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "24", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "44", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "04", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "24", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "44", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "04", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "24", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "44", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "04", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "24", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "44", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "04", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "24", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "44", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "04", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "24", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "44", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "04", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "24", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "44", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "04", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "24", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "44", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "04", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "24", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "44", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "04", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "24", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "44", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "04", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "24", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "44", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "04", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "24", 
+        "hour": "22"
+      }
+    ], 
+    "daysOfTheWeek": [
+      "monday", 
+      "tuesday", 
+      "wednesday", 
+      "thursday", 
+      "friday"
+    ], 
+    "name": "915"
+  }, 
+  {
+    "departurePoint": {
+      "name": "Buiksloterweg", 
+      "location": ""
+    }, 
+    "departureTimes": [
+      {
+        "minute": "24", 
+        "hour": "06"
+      }, 
+      {
+        "minute": "28", 
+        "hour": "06"
+      }, 
+      {
+        "minute": "32", 
+        "hour": "06"
+      }, 
+      {
+        "minute": "36", 
+        "hour": "06"
+      }, 
+      {
+        "minute": "40", 
+        "hour": "06"
+      }, 
+      {
+        "minute": "44", 
+        "hour": "06"
+      }, 
+      {
+        "minute": "48", 
+        "hour": "06"
+      }, 
+      {
+        "minute": "52", 
+        "hour": "06"
+      }, 
+      {
+        "minute": "56", 
+        "hour": "06"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "04", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "08", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "16", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "20", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "25", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "34", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "38", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "46", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "54", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "58", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "02", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "06", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "10", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "14", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "18", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "22", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "26", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "34", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "38", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "46", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "54", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "58", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "02", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "06", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "10", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "14", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "18", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "22", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "26", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "34", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "38", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "46", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "54", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "58", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "02", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "06", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "10", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "14", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "18", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "22", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "26", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "34", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "38", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "47", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "51", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "55", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "59", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "03", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "07", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "11", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "15", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "19", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "23", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "27", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "31", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "35", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "39", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "43", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "47", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "51", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "55", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "59", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "03", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "07", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "11", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "15", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "19", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "23", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "27", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "31", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "35", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "39", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "43", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "47", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "51", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "55", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "59", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "03", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "07", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "11", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "15", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "19", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "23", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "27", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "31", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "35", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "39", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "43", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "47", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "51", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "55", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "59", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "03", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "07", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "11", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "15", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "19", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "23", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "27", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "31", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "35", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "39", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "43", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "47", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "51", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "55", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "59", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "03", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "07", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "11", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "15", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "19", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "23", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "27", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "31", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "35", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "39", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "43", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "47", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "51", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "55", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "59", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "03", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "07", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "11", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "15", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "19", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "23", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "27", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "31", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "36", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "41", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "45", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "49", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "53", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "01", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "05", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "09", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "13", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "17", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "21", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "25", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "29", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "33", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "37", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "41", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "45", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "49", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "53", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "01", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "05", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "09", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "13", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "17", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "21", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "25", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "29", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "33", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "37", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "41", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "45", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "49", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "53", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "01", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "05", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "09", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "13", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "17", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "21", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "25", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "29", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "33", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "37", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "41", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "45", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "49", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "53", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "01", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "05", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "09", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "13", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "17", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "21", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "25", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "29", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "33", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "37", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "41", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "45", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "49", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "53", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "01", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "05", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "09", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "13", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "17", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "21", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "25", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "29", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "33", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "37", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "41", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "45", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "49", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "53", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "01", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "05", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "09", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "13", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "17", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "21", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "25", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "29", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "33", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "37", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "41", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "45", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "49", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "53", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "01", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "05", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "09", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "13", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "17", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "21", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "25", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "29", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "33", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "37", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "41", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "45", 
+        "hour": "23"
+      }
+    ], 
+    "daysOfTheWeek": [
+      "monday", 
+      "tuesday", 
+      "wednesday", 
+      "thursday", 
+      "friday"
+    ], 
+    "name": "Buiksloterweg"
+  }, 
+  {
+    "departurePoint": {
+      "name": "IJplein", 
+      "location": ""
+    }, 
+    "departureTimes": [
+      {
+        "minute": "20", 
+        "hour": "06"
+      }, 
+      {
+        "minute": "27", 
+        "hour": "06"
+      }, 
+      {
+        "minute": "35", 
+        "hour": "06"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "06"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "06"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "06"
+      }, 
+      {
+        "minute": "05", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "20", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "27", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "35", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "05", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "20", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "27", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "35", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "05", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "20", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "27", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "35", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "05", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "20", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "27", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "35", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "05", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "20", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "27", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "35", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "05", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "20", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "27", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "35", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "05", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "20", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "27", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "35", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "05", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "20", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "27", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "35", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "05", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "20", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "27", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "35", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "05", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "20", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "27", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "35", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "05", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "12", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "20", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "27", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "35", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "57", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "05", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "20", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "35", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "05", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "20", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "35", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "05", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "20", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "35", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "05", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "20", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "35", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "05", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "20", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "35", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "05", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "20", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "35", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "50", 
+        "hour": "23"
+      }
+    ], 
+    "daysOfTheWeek": [
+      "monday", 
+      "tuesday", 
+      "wednesday", 
+      "thursday", 
+      "friday"
+    ], 
+    "name": "902"
+  }, 
+  {
+    "departurePoint": {
+      "name": "Centraal Station NDSM", 
+      "location": ""
+    }, 
+    "departureTimes": [], 
+    "daysOfTheWeek": [
+      "monday", 
+      "tuesday", 
+      "wednesday", 
+      "thursday", 
+      "friday"
+    ], 
+    "name": "905"
+  }, 
+  {
+    "departurePoint": {
+      "name": "Centraal Station", 
+      "location": ""
+    }, 
+    "departureTimes": [
+      {
+        "minute": "45", 
+        "hour": "06"
+      }, 
+      {
+        "minute": "15", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "45", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "15", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "45", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "15", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "45", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "15", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "45", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "15", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "45", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "15", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "45", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "15", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "45", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "15", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "45", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "15", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "45", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "15", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "45", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "15", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "45", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "15", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "45", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "15", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "45", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "15", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "45", 
+        "hour": "20"
+      }, 
+      {
+        "minute": "15", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "45", 
+        "hour": "21"
+      }, 
+      {
+        "minute": "15", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "45", 
+        "hour": "22"
+      }, 
+      {
+        "minute": "15", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "45", 
+        "hour": "23"
+      }, 
+      {
+        "minute": "51", 
+        "hour": "23"
+      }
+    ], 
+    "daysOfTheWeek": [
+      "monday", 
+      "tuesday", 
+      "wednesday", 
+      "thursday", 
+      "friday"
+    ], 
+    "name": "906"
+  }, 
+  {
+    "departurePoint": {
+      "name": "Pontsteiger", 
+      "location": ""
+    }, 
+    "departureTimes": [
+      {
+        "minute": "30", 
+        "hour": "06"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "15", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "45", 
+        "hour": "07"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "15", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "45", 
+        "hour": "08"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "15", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "45", 
+        "hour": "09"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "10"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "11"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "12"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "13"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "14"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "15"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "15", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "45", 
+        "hour": "16"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "15", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "45", 
+        "hour": "17"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "15", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "45", 
+        "hour": "18"
+      }, 
+      {
+        "minute": "00", 
+        "hour": "19"
+      }, 
+      {
+        "minute": "15", 
+        "hour": "19"
+      }
+    ], 
+    "daysOfTheWeek": [
+      "monday", 
+      "tuesday", 
+      "wednesday", 
+      "thursday", 
+      "friday"
+    ], 
+    "name": "900"
+  }, 
+  {
+    "departurePoint": {
+      "name": "Centraal Station", 
+      "location": ""
+    }, 
+    "departureTimes": [
+      {
+        "minute": "32", 
+        "hour": "00"
+      }, 
+      {
+        "minute": "44", 
+        "hour": "00"
+      }, 
+      {
+        "minute": "56", 
+        "hour": "00"
+      }, 
+      {
+        "minute": "08", 
+        "hour": "01"
+      }, 
+      {
+        "minute": "20", 
+        "hour": "01"
+      }, 
+      {
+        "minute": "32", 
+        "hour": "01"
+      }, 
+      {
+        "minute": "44", 
+        "hour": "01"
+      }, 
+      {
+        "minute": "56", 
+        "hour": "01"
+      }, 
+      {
+        "minute": "08", 
+        "hour": "02"
+      }, 
+      {
+        "minute": "20", 
+        "hour": "02"
+      }, 
+      {
+        "minute": "32", 
+        "hour": "02"
+      }, 
+      {
+        "minute": "44", 
+        "hour": "02"
+      }, 
+      {
+        "minute": "56", 
+        "hour": "02"
+      }, 
+      {
+        "minute": "08", 
+        "hour": "03"
+      }, 
+      {
+        "minute": "20", 
+        "hour": "03"
+      }, 
+      {
+        "minute": "32", 
+        "hour": "03"
+      }, 
+      {
+        "minute": "44", 
+        "hour": "03"
+      }, 
+      {
+        "minute": "56", 
+        "hour": "03"
+      }, 
+      {
+        "minute": "07", 
+        "hour": "04"
+      }, 
+      {
+        "minute": "19", 
+        "hour": "04"
+      }, 
+      {
+        "minute": "31", 
+        "hour": "04"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "04"
+      }, 
+      {
+        "minute": "54", 
+        "hour": "04"
+      }, 
+      {
+        "minute": "06", 
+        "hour": "05"
+      }, 
+      {
+        "minute": "18", 
+        "hour": "05"
+      }, 
+      {
+        "minute": "30", 
+        "hour": "05"
+      }, 
+      {
+        "minute": "42", 
+        "hour": "05"
+      }, 
+      {
+        "minute": "54", 
+        "hour": "05"
+      }, 
+      {
+        "minute": "06", 
+        "hour": "06"
+      }, 
+      {
+        "minute": "18", 
+        "hour": "06"
+      }
+    ], 
+    "daysOfTheWeek": [
+      "monday", 
+      "tuesday", 
+      "wednesday", 
+      "thursday", 
+      "friday"
+    ], 
+    "name": "907"
+  }
+]
