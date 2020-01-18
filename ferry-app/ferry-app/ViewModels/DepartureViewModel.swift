@@ -18,7 +18,7 @@ class DepartureViewModel: ObservableObject {
   }
   
   let time: Date
-  let status: State
+  let timeToStartPoint: TimeInterval?
   
   var timeString: String {
     let formatter = DateFormatter()
@@ -31,8 +31,16 @@ class DepartureViewModel: ObservableObject {
     formatter.allowedUnits = [.hour, .minute]
 
     formatter.unitsStyle = .abbreviated
+    // TODO(ss): this date is going to need to update
     guard let string = formatter.string(from: Date(), to: time) else { return "" }
     return "in \(string)"
+  }
+  
+  var status: State {
+    guard let timeToStartPoint = timeToStartPoint else { return .available }
+    // TODO(ss): this date is going to need to update
+    let arrivalTimeAtStartPoint = Date().addingTimeInterval(timeToStartPoint)
+    return time > arrivalTimeAtStartPoint ? .available : .unavailable
   }
   
   var backgroundColor: Color {
@@ -53,9 +61,9 @@ class DepartureViewModel: ObservableObject {
     }
   }
   
-  init(time: Date, status: State) {
+  init(time: Date, timeToStartPoint: TimeInterval?) {
     self.time = time
-    self.status = status
+    self.timeToStartPoint = timeToStartPoint
   }
 }
 

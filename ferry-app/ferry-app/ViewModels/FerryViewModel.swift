@@ -42,7 +42,7 @@ class FerryViewModel: ObservableObject {
     case .unknown:
       times = []
     }
-    return times.map { DepartureViewModel(time: $0, status: .available) } // TODO(ss)
+    return times.map { DepartureViewModel(time: $0, timeToStartPoint: secondsToStartPoint) } // TODO(ss)
   }
   
   private func startPoint(from location: CLLocation?) -> RouteEndpoints.Endpoint? {
