@@ -17,8 +17,23 @@ class DepartureViewModel: ObservableObject {
     case unavailable
   }
   
-  let timeString: String
+  let time: Date
   let status: State
+  
+  var timeString: String {
+    let formatter = DateFormatter()
+    formatter.dateFormat = "HH:mm"
+    return formatter.string(from: time)
+  }
+  
+  var countdownString: String {
+    let formatter = DateComponentsFormatter()
+    formatter.allowedUnits = [.hour, .minute]
+
+    formatter.unitsStyle = .abbreviated
+    guard let string = formatter.string(from: Date(), to: time) else { return "" }
+    return "in \(string)"
+  }
   
   var backgroundColor: Color {
     switch status {
@@ -39,11 +54,8 @@ class DepartureViewModel: ObservableObject {
   }
   
   init(time: Date, status: State) {
+    self.time = time
     self.status = status
-    
-    let formatter = DateFormatter()
-    formatter.dateFormat = "HH:mm"
-    self.timeString = formatter.string(from: time)
   }
 }
 

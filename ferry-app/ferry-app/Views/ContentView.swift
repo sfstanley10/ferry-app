@@ -60,8 +60,10 @@ struct FerryListItem: View {
         Spacer()
         LockUp(ferry, color: color)
       }
-      List(ferry.departures) { departure in
-        Departure(departure)
+      HStack { // TODO(ss): convert to list and make sure it scrolls
+        ForEach(ferry.departures) { departure in
+          Departure(departure)
+        }
       }
       .padding(.leading)
     }
@@ -133,7 +135,7 @@ struct Departure: View {
       Text(viewModel.timeString)
         .bold()
         .foregroundColor(viewModel.textColor)
-      Text("in 2 min")
+      Text(viewModel.countdownString)
         .font(.subheadline)
         .foregroundColor(viewModel.textColor)
     }
