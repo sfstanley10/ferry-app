@@ -31,9 +31,10 @@ class FerryViewModel: ObservableObject {
     return endPoint?.name ?? ""
   }
   
-  var departureTimes: [String] {
+  var departures: [DepartureViewModel] {
     let times: [Date]
-    switch locationService.userDirection {
+    // TODO(ss): getting .unknown here
+    switch direction {
     case .north:
       times = ferry.availableTimes(forDirection: .southBound, after: Date())
     case .south:
@@ -41,9 +42,7 @@ class FerryViewModel: ObservableObject {
     case .unknown:
       times = []
     }
-    let formatter = DateFormatter()
-    formatter.dateFormat = "HH:mm"
-    return times.map { formatter.string(from: $0) }
+    return times.map { DepartureViewModel(time: $0, status: .available) } // TODO(ss)
   }
   
   private func startPoint(from location: CLLocation?) -> RouteEndpoints.Endpoint? {
@@ -59,7 +58,7 @@ class FerryViewModel: ObservableObject {
   }
   
   private var startPoint: RouteEndpoints.Endpoint? {
-    switch locationService.userDirection {
+    switch direction {
     case .south:
       return ferry.endpoints.southLocation
     case .north:
@@ -70,7 +69,7 @@ class FerryViewModel: ObservableObject {
   }
   
   private var endPoint: RouteEndpoints.Endpoint? {
-    switch locationService.userDirection {
+    switch direction {
     case .north:
       return ferry.endpoints.southLocation
     case .south:
@@ -86,7 +85,13 @@ class FerryViewModel: ObservableObject {
       objectWillChange.send()
     }
   }
-  private var expectedTravelTimeSubscription: AnyCancellable?
+  private var direction: LocationService.Direction = .unknown {
+    didSet {
+      objectWillChange.send()
+    }
+  }
+  
+  private var disposables = Set<AnyCancellable>()
   
   private var ferry: Ferry
   private var locationService: LocationService
@@ -96,10 +101,11 @@ class FerryViewModel: ObservableObject {
     self.ferry = ferry
     self.locationService = locationService
     getExpectedTravelTime()
+    updateFerryDirection()
   }
   
   func getExpectedTravelTime() {
-    expectedTravelTimeSubscription = locationService.$userLocation
+    locationService.$userLocation
       .map { [weak self] location -> (CLLocation?, RouteEndpoints.Endpoint?) in
         return (location, self?.startPoint(from: location))
       }
@@ -116,7 +122,17 @@ class FerryViewModel: ObservableObject {
       .sink(receiveValue: { [weak self] eta in
         guard let eta = eta else { return }
         self?.secondsToStartPoint = eta
-      }) as AnyCancellable
+      })
+      .store(in: &disposables)
+  }
+  
+  func updateFerryDirection() {
+    locationService.$userLocation
+      .map { $0?.direction }
+      .sink { [weak self] direction in
+        self?.direction = direction ?? .unknown
+      }
+      .store(in: &disposables)
   }
 }
 

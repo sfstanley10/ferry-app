@@ -35,21 +35,11 @@ struct InfoView: View {
         .font(.subheadline)
         .padding(.bottom)
       
-      List() {
-        ForEach(viewModel.ferries) { ferry in
-          VStack(alignment: .leading) {
-            FerryRow(ferry, color: .green)
-              .padding(.bottom, 5)
-            // TODO(ss): turn this into a horizontal thing
-            HStack {
-              Departure(ferry.departureTimes.first ?? "", state: .unavailable)
-              Departure()
-              Departure()
-            }
-            .padding(.leading)
-          }
-          .padding(.bottom, 5)
+      List(viewModel.ferries) { ferry in
+        VStack(alignment: .leading) {
+          FerryListItem(ferry, color: .green)
         }
+        .padding(.bottom, 5)
       }
     }
     .padding()
@@ -57,18 +47,25 @@ struct InfoView: View {
   }
 }
 
-struct FerryRow: View {
+struct FerryListItem: View {
+  
+  @ObservedObject var ferry: FerryViewModel
+  var color: Color
+  
   var body: some View {
-    HStack {
-      FerryIcon(ferry.name, color: color)
-      Text("🚲 \(ferry.timeToStartPointString)") // TODO(ss): ferry.estimatedTravelTime
-      Spacer()
-      LockUp(ferry, color: color)
+    VStack(alignment: .leading, spacing: 5) {
+      HStack {
+        FerryIcon(ferry.name, color: color)
+        Text("🚲 \(ferry.timeToStartPointString)")
+        Spacer()
+        LockUp(ferry, color: color)
+      }
+      List(ferry.departures) { departure in
+        Departure(departure)
+      }
+      .padding(.leading)
     }
   }
-  
-  var ferry: FerryViewModel
-  var color: Color
   
   init(_ ferry: FerryViewModel, color: Color = .black) {
     self.ferry = ferry
@@ -129,48 +126,23 @@ struct LockUp: View {
 
 struct Departure: View {
   
-  enum State {
-    case available
-    case unavailable
-  }
+  @ObservedObject var viewModel: DepartureViewModel
   
   var body: some View {
     VStack {
-      Text(time)
+      Text(viewModel.timeString)
         .bold()
-        .foregroundColor(textColor)
+        .foregroundColor(viewModel.textColor)
       Text("in 2 min")
         .font(.subheadline)
-        .foregroundColor(textColor)
+        .foregroundColor(viewModel.textColor)
     }
     .padding()
-    .background(backgroundColor)
+    .background(viewModel.backgroundColor)
     .cornerRadius(8)
   }
-  
-  var time: String
-  var state: State
-  
-  var backgroundColor: Color {
-    switch state {
-    case .available:
-      return .gray
-    case .unavailable:
-      return Color.gray.opacity(0.5)
-    }
-  }
-  
-  var textColor: Color {
-    switch state {
-    case .available:
-      return .white
-    case .unavailable:
-      return Color.white.opacity(0.5)
-    }
-  }
-  
-  init(_ time: String = "00:00", state: State = .available) {
-    self.time = time
-    self.state = state
+    
+  init(_ viewModel: DepartureViewModel) {
+    self.viewModel = viewModel
   }
 }

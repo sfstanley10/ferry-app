@@ -19,10 +19,7 @@ class LocationService: NSObject {
   }
 
   @Published var userLocation: CLLocation?
-  
-  var userDirection: Direction {
-    return userLocation?.direction ?? .unknown
-  }
+  @Published var userDirection: Direction = .unknown
   
   private var locationManager = CLLocationManager()
 
@@ -70,6 +67,7 @@ extension LocationService: CLLocationManagerDelegate {
   func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
     guard let location = locations.first, location.coordinate != userLocation?.coordinate else { return }
     userLocation = location
+    userDirection = location.direction
   }
 }
 

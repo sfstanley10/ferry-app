@@ -27,6 +27,7 @@
 		C174B9C223C0EB3C0006CCA3 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C174B9C123C0EB3C0006CCA3 /* LocationService.swift */; };
 		C174B9C423C1315B0006CCA3 /* TimetablesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C174B9C323C1315B0006CCA3 /* TimetablesViewModel.swift */; };
 		C174B9C623C149530006CCA3 /* FerryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C174B9C523C149530006CCA3 /* FerryViewModel.swift */; };
+		C1F7A1A023CB8D67002F01B8 /* DepartureViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F7A19F23CB8D67002F01B8 /* DepartureViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		C174B9C123C0EB3C0006CCA3 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
 		C174B9C323C1315B0006CCA3 /* TimetablesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimetablesViewModel.swift; sourceTree = "<group>"; };
 		C174B9C523C149530006CCA3 /* FerryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FerryViewModel.swift; sourceTree = "<group>"; };
+		C1F7A19F23CB8D67002F01B8 /* DepartureViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartureViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 				C108E91223A43C6900409186 /* MapViewModel.swift */,
 				C174B9C323C1315B0006CCA3 /* TimetablesViewModel.swift */,
 				C174B9C523C149530006CCA3 /* FerryViewModel.swift */,
+				C1F7A19F23CB8D67002F01B8 /* DepartureViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -335,6 +338,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1F7A1A023CB8D67002F01B8 /* DepartureViewModel.swift in Sources */,
 				C174B9C223C0EB3C0006CCA3 /* LocationService.swift in Sources */,
 				C108E91723A4459600409186 /* FerryAnnotation.swift in Sources */,
 				C127F0C6236DCAC6008FBED1 /* AppDelegate.swift in Sources */,
