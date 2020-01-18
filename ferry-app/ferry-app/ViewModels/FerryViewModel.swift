@@ -33,7 +33,6 @@ class FerryViewModel: ObservableObject {
   
   var departures: [DepartureViewModel] {
     let times: [Date]
-    // TODO(ss): getting .unknown here
     switch direction {
     case .north:
       times = ferry.availableTimes(forDirection: .southBound, after: Date())
@@ -42,7 +41,7 @@ class FerryViewModel: ObservableObject {
     case .unknown:
       times = []
     }
-    return times.map { DepartureViewModel(time: $0, timeToStartPoint: secondsToStartPoint) } // TODO(ss)
+    return times.map { DepartureViewModel(time: $0, timeToStartPoint: secondsToStartPoint) }
   }
   
   private func startPoint(from location: CLLocation?) -> RouteEndpoints.Endpoint? {
@@ -64,7 +63,7 @@ class FerryViewModel: ObservableObject {
     case .north:
       return ferry.endpoints.northLocation
     case .unknown:
-      return ferry.endpoints.northLocation // TODO(ss)
+      return nil
     }
   }
   
@@ -75,7 +74,7 @@ class FerryViewModel: ObservableObject {
     case .south:
       return ferry.endpoints.northLocation
     case .unknown:
-      return ferry.endpoints.southLocation // TODO(ss)
+      return nil
     }
   }
   
@@ -85,6 +84,7 @@ class FerryViewModel: ObservableObject {
       objectWillChange.send()
     }
   }
+
   private var direction: LocationService.Direction = .unknown {
     didSet {
       guard oldValue != direction else { return }
@@ -102,12 +102,14 @@ class FerryViewModel: ObservableObject {
     self.ferry = ferry
     self.locationService = locationService
     getExpectedTravelTime()
-    updateFerryDirection()
   }
   
   func getExpectedTravelTime() {
     locationService.userLocation
       .catch { _ in return Just(nil) }
+      .handleEvents(receiveOutput: { [weak self] location in
+        self?.direction = location?.direction ?? .unknown
+      })
       .map { [weak self] location -> (CLLocation?, RouteEndpoints.Endpoint?) in
         return (location, self?.startPoint(from: location))
       }
@@ -125,15 +127,6 @@ class FerryViewModel: ObservableObject {
         guard let eta = eta else { return }
         self?.secondsToStartPoint = eta
       })
-      .store(in: &disposables)
-  }
-  
-  func updateFerryDirection() {
-    locationService.userDirection
-      .catch { _ in return Just(.unknown) }
-      .sink { [weak self] direction in
-        self?.direction = direction
-      }
       .store(in: &disposables)
   }
 }

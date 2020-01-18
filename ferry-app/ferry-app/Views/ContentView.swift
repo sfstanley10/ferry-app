@@ -95,6 +95,7 @@ struct FerryIcon: View {
 }
 
 struct LockUp: View {
+  
   var body: some View {
     VStack(alignment: .trailing, spacing: -5, content: {
       HStack {
@@ -117,7 +118,7 @@ struct LockUp: View {
     })
   }
   
-  var ferry: FerryViewModel
+  @ObservedObject var ferry: FerryViewModel
   var color: Color
   
   init(_ ferry: FerryViewModel, color: Color) {

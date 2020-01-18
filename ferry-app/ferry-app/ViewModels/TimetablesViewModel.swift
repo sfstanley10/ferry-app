@@ -13,8 +13,6 @@ class TimetablesViewModel: ObservableObject {
   let objectWillChange = PassthroughSubject<Void, Never>()
   
   var directionTitle: String {
-    // TODO(ss)
-    let direction = LocationService.Direction.unknown
     switch direction {
     case .north:
       return "Southbound"
@@ -31,7 +29,9 @@ class TimetablesViewModel: ObservableObject {
   
   private let mapModel: MockMapModel
   private let locationService: LocationService
-  private var locationSubscription: AnyCancellable?
+  
+  private var direction: LocationService.Direction = .unknown
+  private var disposables = Set<AnyCancellable>()
   
   init(mapModel: MockMapModel = MockMapModel(),
        locationService: LocationService = LocationService()) {
@@ -40,6 +40,9 @@ class TimetablesViewModel: ObservableObject {
     
     let locationUpdated = locationService.userLocation
       .catch { _ in return Just(nil) }
+      .handleEvents(receiveOutput: { [weak self] location in
+        self?.direction = location?.direction ?? .unknown
+      })
       .map { _ in return }
       .eraseToAnyPublisher()
     
@@ -47,11 +50,10 @@ class TimetablesViewModel: ObservableObject {
     let ferriesUpdated = Publishers.MergeMany(publishers)
       .eraseToAnyPublisher()
     
-    // TODO(ss): p sure this doesn't work cuz the ferry updaters rely on location updates?
-    // either that or we have some kind of race condition
-    locationSubscription = Publishers.CombineLatest(locationUpdated, ferriesUpdated)
+    Publishers.CombineLatest(locationUpdated, ferriesUpdated)
       .print("=====")
       .map { _ in return }
       .subscribe(objectWillChange)
+      .store(in: &disposables)
   }
 }
