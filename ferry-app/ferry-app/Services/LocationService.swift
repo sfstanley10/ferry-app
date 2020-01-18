@@ -89,8 +89,8 @@ enum LocationServiceError: Error {
 
 extension CLLocation {
   var direction: LocationService.Direction {
-    // TODO(ss)
-    return .north
+    guard let isNorthOfRiver = coordinate.isNorthOfIJRiver else { return .unknown }
+    return isNorthOfRiver ? .north : .south
   }
 }
 

@@ -20,6 +20,7 @@
 		C127F0D2236DCAC8008FBED1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C127F0D0236DCAC8008FBED1 /* LaunchScreen.storyboard */; };
 		C127F0DD236DCAC9008FBED1 /* ferry_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C127F0DC236DCAC9008FBED1 /* ferry_appTests.swift */; };
 		C127F0E8236DCAC9008FBED1 /* ferry_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C127F0E7236DCAC9008FBED1 /* ferry_appUITests.swift */; };
+		C168144D23D38EF200AEA0F6 /* River.swift in Sources */ = {isa = PBXBuildFile; fileRef = C168144C23D38EF200AEA0F6 /* River.swift */; };
 		C174B9BA23BA7D100006CCA3 /* FerryAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C174B9B923BA7D100006CCA3 /* FerryAnnotationView.swift */; };
 		C174B9BC23BA83BD0006CCA3 /* TimeTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C174B9BB23BA83BD0006CCA3 /* TimeTableView.swift */; };
 		C174B9BE23BA8D840006CCA3 /* LockupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C174B9BD23BA8D840006CCA3 /* LockupView.swift */; };
@@ -67,6 +68,7 @@
 		C127F0E3236DCAC9008FBED1 /* ferry-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ferry-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C127F0E7236DCAC9008FBED1 /* ferry_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ferry_appUITests.swift; sourceTree = "<group>"; };
 		C127F0E9236DCAC9008FBED1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C168144C23D38EF200AEA0F6 /* River.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = River.swift; sourceTree = "<group>"; };
 		C174B9B923BA7D100006CCA3 /* FerryAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FerryAnnotationView.swift; sourceTree = "<group>"; };
 		C174B9BB23BA83BD0006CCA3 /* TimeTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTableView.swift; sourceTree = "<group>"; };
 		C174B9BD23BA8D840006CCA3 /* LockupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockupView.swift; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 				C108E91823A5252F00409186 /* Ferry.swift */,
 				C108E91A23A5259700409186 /* Schedule.swift */,
 				C174B9BF23C0DA8B0006CCA3 /* RouteEndpoints.swift */,
+				C168144C23D38EF200AEA0F6 /* River.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -348,6 +351,7 @@
 				C127F0C8236DCAC6008FBED1 /* SceneDelegate.swift in Sources */,
 				C127F0CA236DCAC6008FBED1 /* MapView.swift in Sources */,
 				C174B9BA23BA7D100006CCA3 /* FerryAnnotationView.swift in Sources */,
+				C168144D23D38EF200AEA0F6 /* River.swift in Sources */,
 				C174B9BC23BA83BD0006CCA3 /* TimeTableView.swift in Sources */,
 				C174B9BE23BA8D840006CCA3 /* LockupView.swift in Sources */,
 				C127F0CA236DCAC6008FBED1 /* MapView.swift in Sources */,

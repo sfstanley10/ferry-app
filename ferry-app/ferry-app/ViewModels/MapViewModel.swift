@@ -78,7 +78,7 @@ struct MockMapModel {
   }
   
   var ndsmFerry: Ferry {
-    let times = [DateComponents(hour: 17, minute: 00), DateComponents(hour: 20, minute: 00)]
+    let times = [DateComponents(hour: 17, minute: 15), DateComponents(hour: 20, minute: 00)]
     return Ferry(name: "906",
                  timeTable: [.southBound: [Schedule(daysOfTheWeek: DateComponents.weekends, times: times)]],
                  tripDuration: 14.0 * 60.0,
