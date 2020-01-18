@@ -30,9 +30,8 @@ class MapViewModel {
   
   var topFerryRoutes: AnyPublisher<[MKRoute], Error> {
     let count = mapModel.ferries.count
-    return locationService.$userLocation
+    return locationService.userLocation
       .compactMap { $0 }
-      .setFailureType(to: Error.self)
       .eraseToAnyPublisher()
       .flatMap { [weak self] location -> Publishers.Sequence<[AnyPublisher<MKRoute, Error>], Error> in
         let sequence = self?.ferryDirections(from: location) ?? []

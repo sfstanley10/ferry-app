@@ -87,6 +87,7 @@ class FerryViewModel: ObservableObject {
   }
   private var direction: LocationService.Direction = .unknown {
     didSet {
+      guard oldValue != direction else { return }
       objectWillChange.send()
     }
   }
@@ -105,7 +106,8 @@ class FerryViewModel: ObservableObject {
   }
   
   func getExpectedTravelTime() {
-    locationService.$userLocation
+    locationService.userLocation
+      .catch { _ in return Just(nil) }
       .map { [weak self] location -> (CLLocation?, RouteEndpoints.Endpoint?) in
         return (location, self?.startPoint(from: location))
       }
@@ -127,10 +129,10 @@ class FerryViewModel: ObservableObject {
   }
   
   func updateFerryDirection() {
-    locationService.$userLocation
-      .map { $0?.direction }
+    locationService.userDirection
+      .catch { _ in return Just(.unknown) }
       .sink { [weak self] direction in
-        self?.direction = direction ?? .unknown
+        self?.direction = direction
       }
       .store(in: &disposables)
   }

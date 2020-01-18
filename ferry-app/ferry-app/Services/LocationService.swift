@@ -18,9 +18,17 @@ class LocationService: NSObject {
     case unknown
   }
 
-  @Published var userLocation: CLLocation?
-  @Published var userDirection: Direction = .unknown
+  var userLocation: AnyPublisher<CLLocation?, Error> {
+    return _userLocation.eraseToAnyPublisher()
+  }
+  var userDirection: AnyPublisher<Direction, Error> {
+    return userLocation
+      .map { $0?.direction ?? .unknown }
+      .removeDuplicates()
+      .eraseToAnyPublisher()
+  }
   
+  private var _userLocation = CurrentValueSubject<CLLocation?, Error>(nil)
   private var locationManager = CLLocationManager()
 
   override init() {
@@ -56,18 +64,21 @@ class LocationService: NSObject {
   }
   
   func getDirections(fromCurrentLocationTo endLocation: CLLocation) -> AnyPublisher<MKRoute, Error> {
-    guard let userLocation = userLocation else {
-      return Fail(error: LocationServiceError.noRouteError).eraseToAnyPublisher()
-    }
-    return getDirections(from: userLocation, to: endLocation)
+    return userLocation
+      .flatMap { [weak self] userLocation -> AnyPublisher<MKRoute, Error> in
+        guard let self = self, let userLocation = userLocation else {
+          return Fail<MKRoute, Error>(error: NoSelfError()).eraseToAnyPublisher()
+        }
+        return self.getDirections(from: userLocation, to: endLocation)
+      }
+      .eraseToAnyPublisher()
   }
 }
 
 extension LocationService: CLLocationManagerDelegate {
   func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
-    guard let location = locations.first, location.coordinate != userLocation?.coordinate else { return }
-    userLocation = location
-    userDirection = location.direction
+    guard let location = locations.first, location.coordinate != _userLocation.value?.coordinate else { return }
+    _userLocation.send(location)
   }
 }
 

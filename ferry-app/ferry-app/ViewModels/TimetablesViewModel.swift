@@ -13,7 +13,9 @@ class TimetablesViewModel: ObservableObject {
   let objectWillChange = PassthroughSubject<Void, Never>()
   
   var directionTitle: String {
-    switch locationService.userDirection {
+    // TODO(ss)
+    let direction = LocationService.Direction.unknown
+    switch direction {
     case .north:
       return "Southbound"
     case .south:
@@ -36,7 +38,8 @@ class TimetablesViewModel: ObservableObject {
     self.mapModel = mapModel
     self.locationService = locationService
     
-    let locationUpdated = locationService.$userLocation
+    let locationUpdated = locationService.userLocation
+      .catch { _ in return Just(nil) }
       .map { _ in return }
       .eraseToAnyPublisher()
     
